@@ -82,7 +82,7 @@ Highcharts.mapChart('container-map-expansion', {
     },
 
     title: {
-        text: 'Cementerios Municipales con problemas de expansión'
+        text: 'Cementerios Municipales por región con problemas de expansión'
     },
 
     credits: {
@@ -116,23 +116,124 @@ Highcharts.mapChart('container-map-expansion', {
 });
 
 
-$(".button").click(function (e) {
-        var newdata = [['cl-an', 100], //Antofagasta
-['cl-2730', 47], //Araucanía
-['cl-2740', 2], //Arica y Parinacota
-['cl-at', 9], //Atacama
-['cl-ai', 12], //Aysén
-['cl-bi', 62], //Bíobío
-['cl-co', 28], //Coquimbo
-['cl-ar', 15], //De Los Ríos
-['cl-ll', 32], //Los Lagos
-['cl-ma', 8], //Magallanes
-['cl-ml', 9], //Maule
-['cl-rm', 7], //Metropolitana
-['cl-li', 9], //O'Higgins
-['cl-ta', 8], //Tarapacá
-['cl-vs', 20] //Valparaíso
-];;
-        
-        $('#container-map').options.series.setData(newdata);
-    });
+// Create the chart
+Highcharts.mapChart('container-map-colapso', {
+    chart: {
+        map: 'countries/cl/cl-all'
+    },
+
+    title: {
+        text: 'Cementerios Municipales por región con problemas de colapso'
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+    colorAxis: {
+        min: 0
+    },
+
+    series: [{
+        data: data_colapso,
+        name: 'Cementerios Municipales',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+
+// Create the chart
+Highcharts.mapChart('container-map-sanitario', {
+    chart: {
+        map: 'countries/cl/cl-all'
+    },
+
+    title: {
+        text: 'Cementerios Municipales con problemas sanitarios'
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+    colorAxis: {
+        min: 0
+    },
+
+    series: [{
+        data: data_sanitario,
+        name: 'Cementerios Municipales',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+
+
+// Create the chart
+Highcharts.mapChart('container-map-ambiente', {
+    chart: {
+        map: 'countries/cl/cl-all'
+    },
+
+    title: {
+        text: 'Cementerios Municipales con problemas de Medio Ambiente'
+    },
+
+    credits: {
+        enabled: false
+    },
+
+    mapNavigation: {
+        enabled: true,
+        buttonOptions: {
+            verticalAlign: 'bottom'
+        }
+    },
+
+    colorAxis: {
+        min: 0
+    },
+
+    series: [{
+        data: data_expansion,
+        name: 'Cementerios Municipales',
+        states: {
+            hover: {
+                color: '#BADA55'
+            }
+        },
+        dataLabels: {
+            enabled: true,
+            format: '{point.name}'
+        }
+    }]
+});
+
