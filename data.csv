@@ -1,0 +1,277 @@
+ID,region,comuna,Nombre,resolucion,sanitarioold,organismo,expansion,sanitario,colapso,medioambiente,alerta-1,alerta-2,alerta-3,alerta-4,Alertas,Zona
+1,Tarapacá,Iquique,Cementerio Nº 1 de Iquique,No,No,Corporación Municipal de Desarrollo Social ,Sí,No,Sí,No,,Sí,,,2,Norte
+2,Tarapacá,Iquique,Cementerio Nº 3 de Iquique,No informado,No,Corporación Municipal de Desarrollo Social ,Sí,No informado,No,No,Sí,,,,1,Norte
+3,Tarapacá,Camiña,Cementerio Municipal de Camiña,No informado,No,Depto. de Administración,Sí,No informado,No,Sí,,Sí,,,2,Norte
+4,Tarapacá,Pozo Almonte,Cementerio Municipal Pozo Almonte,No informado,No,Corporación Municipal de Desarrollo Social I,No,No informado,Sí,No,Sí,,,,1,Norte
+5,Tarapacá,Pozo Almonte,Cementerio Municipal de La Tirana ,No informado,No,Corporación Municipal de Desarrollo Social ,No,No informado,Sí,No,Sí,,,,1,Norte
+6,Tarapacá,Huara,Cementerio General de Huara,No informado,No,Depto. de Aseo y Ornato,No,No informado,No,No,,,,,0,Norte
+7,Tarapacá,Pica,Cementerio Municipal de Matilla,No,Sí,Secretaria de Planificación Municipal ,Sí,Sí,Sí,No,,,Sí,,3,Norte
+8,Tarapacá,Pica,Cementerio Municipal de Pica,No informado,No,Secretaria de Planificación Municipal ,No,No informado,Sí,No,Sí,,,,1,Norte
+9,Antofagasta,Mejillones,Cementerio Municipal de Mejillones,No,Sí,Depto. de Obras,No,Sí,No,No,Sí,,,,1,Norte
+10,Antofagasta,Sierra Gorda,Cementerio Municipal de Sierra Gorda,No,Sí,Depto. de Administración Municipal,Sí,Sí,No,No,,Sí,,,2,Norte
+11,Antofagasta,Sierra Gorda,Cementerio Municipal Baquedano,No,Sí,Depto. de Administración Municipal,Sí,Sí,No,No,,Sí,,,2,Norte
+12,Antofagasta,Taltal,Cementerio General de Taltal,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Norte
+13,Antofagasta,Calama,Cementerio Municipal de Calama,No,No,Depto. de Administración Municipal,Sí,No,No,No,Sí,,,,1,Norte
+14,Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 2,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Norte
+15,Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 3,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Norte
+16,Antofagasta,Antofagasta,Cementerio Municipal de Antofagasta,Sí,No,Dirección de Servicios Traspasados ,Sí,Sí,No,No,,Sí,,,2,Norte
+17,Atacama,Copiapó,Cementerio Municipal de Copiapó,No informado,No,Depto. de Administración Municipal,Sí,No informado,Sí,No,,Sí,,,2,Norte
+18,Atacama,Caldera,Cementerio Municipal de Caldera,No informado,No,Depto. de Administración Municipal,No,No informado,No,Sí,Sí,,,,1,Norte
+19,Atacama,Tierra Amarilla,Cementerio Municipal de Tierra Amarilla,No,Sí,Depto. de Administración Municipal,No,Sí,Sí,Sí,,,Sí,,3,Norte
+20,Atacama,Chañaral,Cementerio de Chañaral,No informado,,Depto. de Administración,,No informado,,,,,,,0,Norte
+21,Atacama,Diego de Almagro,Cementerio Municipal de Diego de Almagro,No,Sí,Depto. de Obras,No,Sí,Sí,No,,Sí,,,2,Norte
+22,Atacama,Vallenar,Cementerio Municipal de Vallenar,No,Sí,Depto. de Administración Municipal,Sí,Sí,Sí,No,,,Sí,,3,Norte
+23,Atacama,Freirina,Cementerio Municipal de Freirina,No informado,No Sabe,Depto. de Salud,Sí,No informado,Sí,No,,Sí,,,2,Norte
+24,Atacama,Huasco,Cementerio Municipal de Huasco ,No informado,No,Depto. de Administración,Sí,No informado,Sí,No,,Sí,,,2,Norte
+25,Atacama,Huasco,Cementerio Municipal de Huasco Bajo,No informado,No,Depto. de Administración,Sí,No informado,Sí,Sí,,,Sí,,3,Norte
+26,Coquimbo,Canela,Cementerio Municipal de Canela Alta,No,Sí,Depto. de Rentas y Patentes,No,Sí,No Sabe,No,Sí,,,,1,Norte
+27,Coquimbo,Coquimbo,Cementerio Municipal de Coquimbo,No,Sí,Depto. de Administración,Sí,Sí,Sí,Sí,,,,Sí,4,Norte
+28,Coquimbo,Illapel,Cementerio Municipal de Illapel,No informado,No,Depto. de Administración,Sí,No informado,Sí,No,,Sí,,,2,Norte
+29,Coquimbo,La Higuera,Cementerio Municipal de La Higuera,No informado,No Sabe,Depto. de Administración,No,No informado,No,No,,,,,0,Norte
+30,Coquimbo,La Higuera,Cementerio Municipal de Los Choros,No informado,No Sabe,Depto. de Administración,Sí,No informado,No,No,Sí,,,,1,Norte
+31,Coquimbo,La Higuera,Cementerio Municipal de Totoralillo Norte ,No informado,No Sabe,Depto. de Administración,No,No informado,No,No,,,,,0,Norte
+32,Coquimbo,La Serena,Cementerio Municipal de Compañía Alta,No informado,No,Corporación Gabriel González Videla ,No,No informado,No,Sí,Sí,,,,1,Norte
+33,Coquimbo,La Serena,Cementerio Municipal de La Serena,No informado,No,Corporación Gabriel González Videla ,Sí,No informado,Sí,No,,Sí,,,2,Norte
+34,Coquimbo,Los Vilos,Cementerio Municipal de Los Vilos,No,Sí,Depto. de Obras ,Sí,Sí,Sí,No,,,Sí,,3,Norte
+35,Coquimbo,Ovalle,Cementerio Municipal Cerrillos de Tamaya,No,Sí,Depto. de Administración,Sí,Sí,No,Sí,,,Sí,,3,Norte
+36,Coquimbo,Ovalle,Cementerio Municipal de Ovalle,No informado,No,Depto. de Administración,Sí,No informado,Sí,No,,Sí,,,2,Norte
+37,Coquimbo,Paihuano,Cementerio Municipal de Monte Grande,No informado,,Depto. de Administración,,No informado,,,,,,,0,Norte
+38,Coquimbo,Paihuano,Cementerio Municiapal de Paihuano,No informado,,Depto. de Administración,,No informado,,,,,,,0,Norte
+39,Coquimbo,Paihuano,Cementerio Municipal de Pisco Elqui,No informado,,Depto. de Administración,,No informado,,,,,,,0,Norte
+40,Coquimbo,Río Hurtado,Cementerio Municiapal de El Chañar,No,Sí,Depto. de Obras,No,Sí,No,Sí,,Sí,,,2,Norte
+41,Coquimbo,Río Hurtado,Cementerio Municipal de Hurtado,No,Sí,Depto. de Obras,No,Sí,No,Sí,,Sí,,,2,Norte
+42,Coquimbo,Río Hurtado,Cementerio Municiapal de Las Breas,No,Sí,Depto. de Obras,No,Sí,No,Sí,,Sí,,,2,Norte
+43,Coquimbo,Río Hurtado,Cementerio Municipal de Samo Alto,No,Sí,Depto. de Obras,No,Sí,No,Sí,,Sí,,,2,Norte
+44,Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro (San Pedro Sur),No,Sí,Depto. de Obras,No,Sí,Sí,Sí,,,Sí,,3,Norte
+45,Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro de Pichasca,No,Sí,Depto. de Obras,No,Sí,Sí,Sí,,,Sí,,3,Norte
+46,Coquimbo,Río Hurtado,Cementerio Municipal de Serón,No,Sí,Depto. de Obras,No,Sí,No,Sí,,Sí,,,2,Norte
+47,Coquimbo,Río Hurtado,Cementerio Municipal de Tahuinco,No informado,No,Depto. de Obras,No,No informado,No,Sí,Sí,,,,1,Norte
+48,Coquimbo,Salamanca,Cementerio Municipal de Salamanca,No informado,No,Depto. de  Finanzas,No,No informado,Sí,No,Sí,,,,1,Norte
+49,Coquimbo,Vicuña,Cementerio Municiapal de Varillar ,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Norte
+50,Coquimbo,Vicuña,Cementerio Municipal de El Tambo ,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Norte
+51,Coquimbo,Vicuña,Cementerio Municipal de Vicuña,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Norte
+52,Coquimbo,Vicuña,Cementerio Municipal de San Isidro,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Norte
+53,Coquimbo,Vicuña,Cementerio Municipal de Villaseca,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Norte
+54,Valparaíso,Valparaíso,Cementerio Municipal Nº 1,No,Sí,Corporación Municipal ,No,Sí,Sí,Sí,,,Sí,,3,Centro
+55,Valparaíso,Valparaíso,Cementerio Municipal Nº 2,No,Sí,Corporación Municipal ,Sí,Sí,Sí,No,,,Sí,,3,Centro
+56,Valparaíso,Valparaíso,Playa Ancha Cementerio Municipal Nº 3,No,Sí,Corporación Municipal ,Sí,Sí,No,No,,Sí,,,2,Centro
+57,Valparaíso,La Calera,Cementerio Municipal de La Calera,Sí,,,,Sí,,,Sí,,,,1,Centro
+58,Valparaíso,La Cruz,Cementerio Municipal La Palmilla,No,,,,No,,,,,,,0,Centro
+59,Valparaíso,Llay Llay,Cementerio Municipal de Llay Llay,No,,,,No,,,,,,,0,Centro
+60,Valparaíso,Panquehue,Cementerio Municipal de Panquehue,No,Sí,,Sí,Sí,Sí,Sí,,,,Sí,4,Centro
+61,Valparaíso,La Ligua,Cementerio Municipal de La Ligua,Sí,,,,Sí,,,Sí,,,,1,Centro
+62,Valparaíso,Casablanca,Cementerio Municipal de Casablanca,No,No,Depto. de Aseo y Ornato,Sí,No,Sí,No,,Sí,,,2,Centro
+63,Valparaíso,Puchuncaví,Cementerio Municipal de Puchuncaví,No,No,Depto. de Finanzas,No,No,Sí,No,Sí,,,,1,Centro
+64,Valparaíso,Isla de Pascua,Cementerio Municipal de Isla de Pascua,No,No,Depto. de Administración Municipal,Sí,No,Sí,Sí,,,Sí,,3,Centro
+65,Valparaíso,Olmué ,Cementerio Municipal de Olmué ,No,No Sabe,Depto. de Obras,No,No,Sí,No,Sí,,,,1,Centro
+66,Valparaíso,Quillota,Cementerio Municipal de Quillota,Sí,No,Depto. de Administración Municipal,Sí,Sí,No,No,,Sí,,,2,Centro
+67,Valparaíso,Viña deL MAR,Cementerio Municipal de Santa Inés,No,No,Depto. de Administración Municipal,No,No,No,No,,,,,0,Centro
+68,Valparaíso,Quintero,Cementerio Municipal de Quinteros,No,,Depto de Obras,No,No,,,,,,,0,Centro
+69,Valparaíso,San Felipe,Cementerio Municipal de San Felipe,Sí,No,Depto. de Administración Municipal,No,Sí,Sí,No,,Sí,,,2,Centro
+70,Valparaíso,Cabildo,Cementerio Municipal de Cabildo,Sí,No,Depto. de Obras,No,Sí,No,No Sabe,Sí,,,,1,Centro
+71,Valparaíso,Petorca,Cementerio Municipal de Chincolco,No,No,Depto. de Cementerios,No,No,No,No,,,,,0,Centro
+72,Valparaíso,Petorca,Cementerio Municipal de Hierro Viejo,No,No,Depto. de Cementerios,Sí,No,Sí,No,,Sí,,,2,Centro
+73,O'Higgins,Doñihue,Cementerio Municipal de Doñihue,No,Sí,Depto. de Obras,No,Sí,Sí,Sí,,,Sí,,3,Centro
+74,Valparaíso,Petorca,Cementerio Municipal de Petorca ,No,No,Depto. de Cementerios,No,No,No,No,,,,,0,Centro
+75,O'Higgins,Mostazal,CEMENTERIO MUNICIPAL MOSTAZAL,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Centro
+76,O'Higgins,Rancagua,CEMENTERIO N1 MUNICIPAL RANCAGUA,No,Sí,Corporación Municipal,Sí,Sí,Sí,No,,,Sí,,3,Centro
+77,O'Higgins,Rancagua,CEMENTERIO N2 MUNICIPAL RANCAGUA,No,Sí,Corporación Municipal,No,Sí,No,No,Sí,,,,1,Centro
+78,O'Higgins,Rengo,MUNICIPALIDAD DE RENGO,No,Sí,Depto. de Aseo y Ornato,Sí,Sí,Sí,No Sabe,,,Sí,,3,Centro
+79,O'Higgins,San Fernando,CEMENTERIO SAN FERNANDO,No,No,Depto. de Finanzas,No,No,Sí,Sí,,Sí,,,2,Centro
+80,O'Higgins,Nancagua,CEMENTERIO MUNICIPAL NANCAGUA,No,Sí,Dpto. de Obras ,No,Sí,Sí,No,,Sí,,,2,Centro
+81,O'Higgins,La Estrella,CEMENTERIO MUNICIPAL,No,Sí,Depto. de Administración Municipal,Sí,Sí,Sí,Sí,,,,Sí,4,Centro
+82,O'Higgins,Navidad,CEMENTERIO MUNICIPAL,No,No,Depto. de Administración Municipal,Sí,No,Sí,Sí,,,Sí,,3,Centro
+83,Maule,Cauquenes,C. Municipal,No,Sí,Depto. de Administración Municipal,No,Sí,Sí,Sí,,,Sí,,3,Centro
+84,Maule,Cauquenes,C. Coronel,No,Sí,Depto. de Administración Municipal,No,Sí,Sí,Sí,,,Sí,,3,Centro
+85,Maule,Cauquenes,C. Pocillas,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Centro
+86,Maule,Curicó,Municipalidad Curicó,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Centro
+87,Maule,Hualañe,Municipalidad Hualañe,No informado,No,Depto. de Cementerio,No,No informado,Sí,No,Sí,,,,1,Centro
+88,Maule,Talca,Municipalidad Talca,No informado,,Depto. de Cementerio,,No informado,,,,,,,0,Centro
+89,Maule,Constitución,Municipalidad Constitución,No informado,No,Depto de Administración Municipal,Sí,No informado,Sí,No,,Sí,,,2,Centro
+90,Maule,Río Claro,Municipalidad Rio Claro,No informado,,,,No informado,,,,,,,0,Centro
+91,Maule,Villalegre,Municipal,No informado,,,,No informado,,,,,,,0,Centro
+92,Bíobío,Los Angeles,Municipal de Los Angeles,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Centro
+93,Bíobío,Los Angeles,Municipal de Santa Fe,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+94,Bíobío,Los Angles,Municipal de Millantú,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+95,Bíobío,Mulchen,Municipalidad de Mulchen,No,,Depto. de Salud ,,No,,,,,,,0,Sur
+96,Bíobío,Santa Barbara,Municipal Sta. Bárbara,No,,,,No,,,,,,,0,Sur
+97,Bíobío,Quilaco,Municipal Quilaco,No,,,,No,,,,,,,0,Sur
+98,Bíobío,Nacimiento,Municipal Nacimiento,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Sur
+99,Bíobío,Nacimiento,Cementerio de Taboleo,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+100,Bíobío,Nacimiento,Cementerio de los Pantanos,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+101,Bíobío,Nacimiento,Cementerio de Millapoa,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+102,Bíobío,Laja,Muncipal El Desague ,No informado,,Depto. de Administración Municipal,No,No informado,No,,,,,,0,Sur
+103,Bíobío,Laja,Municipal Urbano del Laja ,No,,Depto. de Administración Municipal,,No,,,,,,,0,Sur
+104,Bíobío,Laja,Municipal Cruz de Piedra,No informado,,Depto. de Administración Municipal,,No informado,,,,,,,0,Sur
+105,Bíobío,Tucapel,Polcura(Municipal),No,Sí,Depto. de Administración Municipal,No,Sí,No,No,Sí,,,,1,Sur
+106,Bíobío,Tucapel,Trupan(Municipal),No,Sí,Depto. de Administración Municipal,No,Sí,No,No,Sí,,,,1,Sur
+107,Bíobío,Tucapel,Huépil(Municipal),No,No,Depto. de Administración Municipal,No,No,Sí,No,Sí,,,,1,Sur
+108,Bíobío,Tucapel,Tucapel (Municipal),No,No,Depto. de Administración Municipal,No,No,No,No,,,,,0,Sur
+109,Bíobío,Quilleco,Municpal Quilleco,No,Sí,Depto. de Finanzas ,No,Sí,No,Sí,,Sí,,,2,Sur
+110,Bíobío,Negrete,Muncipal Negrete,Sí,,Depto. de Finanzas ,,Sí,,,Sí,,,,1,Sur
+111,Bíobío,Yumbel,Río Claro,No,No Sabe,Depto. de Finanzas ,No,No,Sí,No,Sí,,,,1,Sur
+112,Bíobío,Yumbel,Rere,No informado,,Depto. de Finanzas ,,No informado,,,,,,,0,Sur
+113,Bíobío,Cabrero,Muncipalidad Cabrero,No,,,,No,,,,,,,0,Sur
+114,Bíobío,Concepción,Cementerio General,No,No,Dpto. de Obras ,No,No,No,No,,,,,0,Sur
+115,Bíobío,San Pedro de la Paz,Cementerio Municipal,No,No,Depto. de Salud,Sí,No,No,No,Sí,,,,1,Sur
+116,Bíobío,Chiguayante,Cementerio Municipal,Sí,No,Depto. de Administración Municipal,No,Sí,No,No,Sí,,,,1,Sur
+117,Bíobío,Coronel,Cementerio Municipal,Sí,,,,Sí,,,Sí,,,,1,Sur
+118,Bíobío,Lota,Cementerio Municipal,No,,Depto. de Desarrollo Comunitario ,,No,,,,,,,0,Sur
+119,Bíobío,Hualqui,Cementerio Municipal,No,Sí,Depto. Administración Municipal,No,Sí,No,No,Sí,,,,1,Sur
+120,Bíobío,Santa Juana,Cementerio Municipal,No,No,Depto de Salud y Cementerio,Sí,No,Sí,Sí,,,Sí,,3,Sur
+121,Bíobío,Santa Juana,Las Corrientes,No,Sí,Depto. de Salud y Cementerio,No,Sí,Sí,Sí,,,Sí,,3,Sur
+122,Bíobío,Talcahuano,Cementerio Municipal N° 2,No,No,Dpto. de Finanzas,Sí,No,No,No,Sí,,,,1,Sur
+123,Bíobío,Talcahuano,Cementerio Municipal N° 1,No,No,Dpto. de Finanzas,Sí,No,Sí,No,,Sí,,,2,Sur
+124,Bíobío,TOME,Municipal Nº 1,No,No,Administración Cementerios,Sí,No,Sí,No,,Sí,,,2,Sur
+125,Bíobío,TOME,Municipal Nº 2,No,No,Administración Cementerios,Sí,No,No,No,Sí,,,,1,Sur
+126,Bíobío,TOME,Municipal Dichato,No,No,Administración Cementerios,Sí,No,Sí,No,,Sí,,,2,Sur
+127,Bíobío,TOME,Municipal Rafael,No,No,Administración Cementerios,Sí,No,Sí,No,,Sí,,,2,Sur
+128,Bíobío,Chillán,Municipal de Chillán,No,,Administración Cementerios,,No,,,,,,,0,Sur
+129,Bíobío,Chillán,Municipal Quinchamali,No,,Administración Cementerios,,No,,,,,,,0,Sur
+130,Bíobío,San Carlos,Municipal San Carlos,No,No,Administración Cementerios,No,No,Sí,No,Sí,,,,1,Sur
+131,Bíobío,San Carlos,Municipal Cachapoal,No,No,Administración Cementerios,No,No,Sí,No,Sí,,,,1,Sur
+132,Bíobío,Bulnes,Municipal Santa Clara,No,Sí,Administración Cementerios,No,Sí,No,No,Sí,,,,1,Sur
+133,Bíobío,Bulnes,Municipal Bulnes,No,Sí,Administración Cementerios,No,Sí,No,Sí,,Sí,,,2,Sur
+134,Bíobío,Coelemu,Municipal coelemu,No,,Depto. de Obras,,No,Sí,,Sí,,,,1,Sur
+135,Bíobío,Coelemu,Municipal Curanilahue,No,,Depto. de Obras,,No,Sí,,Sí,,,,1,Sur
+136,Bíobío,Quillón,Municipal Quillón,No,No,Depto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Sur
+137,Bíobío,Quillón,Municipal Cerro Negro,No,No,Depto. de Administración Municipal,No,No,No,No,,,,,0,Sur
+138,Bíobío,San Nicolás,Municipal,No,Sí,Depto. de Tránsito ,No,Sí,No,Sí,,Sí,,,2,Sur
+139,Bíobío,Ñiquén,Municipal,No,,Depto. de Obras,,No,,,,,,,0,Sur
+140,Bíobío,Ránquil,Municipal *en ampliación*,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+141,Bíobío,Trehuaco,Municipal,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+142,Bíobío,Yungay,Municipal de Yungay,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+143,Bíobío,Yungay,Municipal de Campario,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+144,Bíobío,Yungay,Municipal,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+145,Bíobío,Yungay,Municipal,No,,Dpto. de Finanzas,,No,,,,,,,0,Sur
+146,Bíobío,Lebu,Municipal de Lebu,No,Sí,Dpto. de Obras ,No,Sí,No,No,Sí,,,,1,Sur
+147,Bíobío,Los Alamos,Cementerio Municipal de Los Álamos,No,No,Dpto. de Obras ,Sí,No,Sí,No,,Sí,,,2,Sur
+148,Bíobío,Cañete,Cementerio Municipal de Cañete,No,No,Dpto. de administración municipal,Sí,No,Sí,No,,Sí,,,2,Sur
+149,Bíobío,Contulmo,Municipal de Contulmo,No,No,,No,No,Sí,Sí,,Sí,,,2,Sur
+150,Bíobío,Tirúa,Municipal de Tirúa,No,,Dpto. de Obras,,No,,,,,,,0,Sur
+151,Bíobío,Tirúa,Quidico,No,,Dpto. de Obras,,No,,,,,,,0,Sur
+152,Bíobío,Curanilahue,Municipal de Curanilahue,No,Sí,Dpto. de Administración Municipal,No,Sí,Sí,No,,Sí,,,2,Sur
+153,Bíobío,Arauco,Municipal de Arauco,No,No,Dpto. de Administración Municipal,Sí,No,Sí,No,,Sí,,,2,Sur
+154,Araucanía,Traiguén,Municipal de Traiguén,No,No,Dpto. de Administración Municipal,No,No,Sí,No,Sí,,,,1,Sur
+155,Araucanía,Lumaco,Municipal de Lumaco,No,Sí,Dpto. de Administración Municipal,No,Sí,Sí,No,,Sí,,,2,Sur
+156,Araucanía,Lumaco,Municipal de Cap. Pastene,No,Sí,Dpto. de Administración Municipal,No,Sí,Sí,Sí,,,Sí,,3,Sur
+157,Araucanía,LONQUIMAY,CEMENTERIO MUNICIPAL,No,Sí,Dpto de Patentes,No,Sí,No,No,Sí,,,,1,Sur
+158,Araucanía,Lautaro,Municipal Lautaro,Sí,Sí,Depto. de Cementerio,No,Sí,Sí,No,,Sí,,,2,Sur
+159,Araucanía,Lautaro,Municipal Pillanlelbun,Sí,No,Depto. de Cementerio,Sí,Sí,Sí,No,,,Sí,,3,Sur
+160,Araucanía,Perquenco,Municipal de Perquenco,No,,,,No,,,,,,,0,Sur
+161,Araucanía,Galvarino,Municipal de Galvarino,No,,Depto. de Salud,,No,,,,,,,0,Sur
+162,Araucanía,Curacautin,Cementerio Curacautin,No,,,,No,,,,,,,0,Sur
+163,Araucanía,Temuco,Cementerio General Municipal,No,No,Depto. de Administración,Sí,No,Sí,No,,Sí,,,2,Sur
+164,Araucanía,Temuco,Parque Cementerio Municipal,Sí,No,Depto. de Administración,No,Sí,No,No,Sí,,,,1,Sur
+165,Araucanía,Cunco,Cementerio Municipal Cunco,No,No,Depto. de Rentas y Patentes,Sí,No,Sí,No,,Sí,,,2,Sur
+166,Araucanía,Cunco,Cementerio Municipal Las Hortensias,No,No,Depto. de Rentas y Patentes,No,No,Sí,Sí,,Sí,,,2,Sur
+167,Araucanía,Cunco,Cementerio Municipal Los Laureles,No,Sí,Depto. de Rentas y Patentes,Sí,Sí,Sí,No,,,Sí,,3,Sur
+168,Araucanía,Melipeuco,Cementerio Municipal,No,,Depto. de Obras,,No,,,,,,,0,Sur
+169,Araucanía,Padre Las Casas,Cementerio Municipal,No,,,,No,,,,,,,0,Sur
+170,Araucanía,Vilcún,Cementerio Municipal de Vilcún,No,Sí,Depto. de Administración,Sí,Sí,Sí,No,,,Sí,,3,Sur
+171,Araucanía,Vilcún,Cementerio Municipal de San Patricio,No,Sí,Depto. de Administración,Sí,Sí,Sí,No,,,Sí,,3,Sur
+172,Araucanía,Vilcún,Cementerio Municipal de Cherquenco,No,Sí,Depto. de Administración,Sí,Sí,Sí,No,,,Sí,,3,Sur
+173,Araucanía,Renaico,Municipal de Renaico,No,No,Depto. de Turismo,Sí,No,Sí,No,,Sí,,,2,Sur
+174,Araucanía,Puren,Municipal de Puren,No,Sí,Depto. de Administración Municipal,Sí,Sí,No,No,,Sí,,,2,Sur
+175,Araucanía,Angol,Municipal de Angol,No,Sí,Depto. de Operaciones,No,Sí,No,No,Sí,,,,1,Sur
+176,Araucanía,Los Sauces,Municipal de Los Sauces,No,Sí,No hay asignación,Sí,Sí,Sí,Sí,,,,Sí,4,Sur
+177,Araucanía,Loncoche,Cementerio Municipal de Loncoche,No,No,Depto. de Obras,Sí,No,Sí,Sí,,,Sí,,3,Sur
+178,Araucanía,Loncoche,Cementerio Municipal de Huiscapi,No,No,Depto. de Obras,No,No,No,Sí,Sí,,,,1,Sur
+179,Araucanía,CHOL-CHOL,MUNICIPAL DE CHOL-CHOL,No,,Depto. de Obras,,No,,,,,,,0,Sur
+180,Araucanía,CARAHUE,MUNICIPAL DE CARAHUE,Sí,No,Depto. de Obras,Sí,Sí,Sí,No,,,Sí,,3,Sur
+181,Araucanía,SAAVEDRA,MUNICIPAL DE PTO DOMINGUEZ,No,Sí,Depto de Salud,Sí,Sí,Sí,No,,,Sí,,3,Sur
+182,Araucanía,SAAVEDRA,MUNICIPAL DE SAAVEDRA,No,Sí,Depto. de Salud,Sí,Sí,Sí,No,,,Sí,,3,Sur
+183,Araucanía,NVA. IMPERIAL,MUNICIPAL DE NUEVA IMPERIAL,No,No,Depto. de Obras ,No,No,Sí,Sí,,Sí,,,2,Sur
+184,Araucanía,Collipulli,Cementerio Municipal,No,No,Depto. de Obras,No,No,No,No,,,,,0,Sur
+185,Araucanía,Collipulli,Cementerio Municipal Cato de Santa Julia,No,Sí,Depto. de Obras,No,Sí,No,No,Sí,,,,1,Sur
+186,Araucanía,Victoria,Cementerio Municipal Victoria,Sí,No,Depto. de Desarrollo Comunitario,Sí,Sí,Sí,No,,,Sí,,3,Sur
+187,Araucanía,ERCILLA,Municipal Ercilla,No,No,Depto. de Obras,Sí,No,Sí,Sí,,,Sí,,3,Sur
+188,Araucanía,ERCILLA,Municipal Pailahueque,No,No,Depto. de Obras,No,No,No,No,,,,,0,Sur
+189,Araucanía,Pitrufquen,CEMENTERIO DE PITRUFQUEN,No,No,Depto. de Obras,Sí,No,Sí,No,,Sí,,,2,Sur
+190,Araucanía,Gorbea,CEMENTERIO DE GORBEA,No,No,Depto. de Aseo y Ornato,No,No,Sí,No,Sí,,,,1,Sur
+191,Araucanía,Freire,CEMENTERIO DE FREIRE,No,No,Depto de Tránsito,No,No,Sí,No,Sí,,,,1,Sur
+192,Araucanía,Gorbea,CEMENTERIO DE QUITRATUE,No,No,Depto. de Aseo y Ornato,Sí,No,Sí,No,,Sí,,,2,Sur
+193,Araucanía,Gorbea,CEMENTERIO LASTARRIAS,No,No,Depto. de Aseo y Ornato,Sí,No,No,No,Sí,,,,1,Sur
+194,Araucanía,T. Schmidt,CEMENTERIO BARROS ARANA,No,No,Depto. de Seguridad Pública,Sí,No,No,No,Sí,,,,1,Sur
+195,Araucanía,T. Schmidt,CEMENTERIO TEODORO SCHMIDT,No,No,Depto. de Seguridad Pública,Sí,No,Sí,No,,Sí,,,2,Sur
+196,Araucanía,Toltén,CEMENTERIO DE TOLTEN,No,No,Depto de Obras,No,No,No,No,,,,,0,Sur
+197,Araucanía,Freire,CEMENTERIO QUEPE,No,No,Depto de Tránsito,No,No,Sí,Sí,,Sí,,,2,Sur
+198,Araucanía,Pitrufquen,CEMENTERIO EN COMUY,No,No,Depto de Obras,Sí,No,Sí,No,,Sí,,,2,Sur
+199,Araucanía,Pitrufquen,Cementerio de Caicoma,No,No,Depto de Obras,No,No,Sí,No,Sí,,,,1,Sur
+200,Araucanía,Villarrica,Cementerio Municipal Villarrica,No,No,Depto de Obras,Sí,No,No,No,Sí,,,,1,Sur
+201,Los Lagos,Purranque,Municipal Purranque,No,No,No está delimitado ,Sí,No,Sí,No,,Sí,,,2,Sur
+202,Los Lagos,Purranque,Municipal Crucero,No,No,No está delimitado ,Sí,No,Sí,No,,Sí,,,2,Sur
+203,Los Lagos,Purranque,Municipal Corte Alto,Sí,No,No está delimitado ,Sí,Sí,Sí,No,,,Sí,,3,Sur
+204,Los Lagos,Purranque,Municpal Huellusca,No informado,No,No está delimitado ,Sí,No informado,Sí,No,,Sí,,,2,Sur
+205,Los Lagos,Río Negro,Municipal Río Negro,Sí,Sí,Depto de Obras,Sí,Sí,Sí,Sí,,,,Sí,4,Sur
+206,Los Lagos,Río Negro,Municipal de Chapaco,No informado,No,Depto de Obras,Sí,No informado,No,No,Sí,,,,1,Sur
+207,Los Lagos,San Pablo,Municipal San Pablo,Sí,No,Depto de Obras,No Sabe,Sí,No,No,Sí,,,,1,Sur
+208,Los Lagos,Muermos,Municipal de Los Muermos,Sí,No,Secretaria de Planificación,No,Sí,No,Sí,,Sí,,,2,Sur
+209,Los Lagos,Quinchao,Municipal de Quinchao,Sí,No,Depto de Obras,Sí,Sí,Sí,No,,,Sí,,3,Sur
+210,Los Lagos,Osorno,Cementerio Municipal de Osorno,No informado,No,Depto de Aseo y Ornato,Sí,No informado,Sí,Sí,,,Sí,,3,Sur
+211,Los Lagos,Quellón,Cementerio Municipal de Quellón,No,,Depto de Obras,,No,,,,,,,0,Sur
+212,Los Lagos,Puyehue,Cementerio Municipal Puyehue,No informado,No,Depto de Obras,Sí,No informado,Sí,No,,Sí,,,2,Sur
+213,Los Lagos,Puyehue,Cementerio Municipal de Entre Lagos,No informado,No,Depto de Obras,Sí,No informado,No,No,Sí,,,,1,Sur
+214,Los Lagos,Chaitén,Cementerio Municipal de Chaitén,No informado,No,Depto de Obras,Sí,No informado,Sí,Sí,,,Sí,,3,Sur
+215,Los Lagos,Futaleufú,Cementerio Municipal de Futaleufú,No informado,,Depto de Obras,,No informado,,,,,,,0,Sur
+216,Los Lagos,Futaleufú,*******,No informado,,Depto de Obras,,No informado,,,,,,,0,Sur
+217,Los Lagos,Hualaihué,Cementerio Municipal de Hualaihué,No informado,No,Secretaría Municipal,No,No informado,Sí,No,Sí,,,,1,Sur
+218,Los Lagos,Palena,Cementerio Municipal de Palena,No informado,No,Depto de Obras,Sí,No informado,No,No,Sí,,,,1,Sur
+219,Los Lagos,Calbuco,Cementerio Municipal de Calbuco,No,No,Depto de Obras,Sí,No,Sí,No,,Sí,,,2,Sur
+220,Los Lagos,Calbuco,*en proceso*,No informado,No,Depto de Obras,No,No informado,No,No,,,,,0,Sur
+221,Los Lagos,Cochamó,Cementerio Municipal de Cochamó,No informado,No,Depto de Obras,No,No informado,No,No,,,,,0,Sur
+222,Los Lagos,Frutillar,Cementerio Municipal de Frutillar,No,Sí,Depto. de Operaciones ,Sí,Sí,Sí,No,,,Sí,,3,Sur
+223,Los Lagos,Frutillar,Cementerio Municipal de Pantanosa,No,Sí,Depto de Operaciones,Sí,Sí,Sí,Sí,,,,Sí,4,Sur
+224,Los Lagos,Frutillar,Cementerio Municiapal de Casma,No,Sí,Depto de Operaciones,Sí,Sí,Sí,No,,,Sí,,3,Sur
+225,Los Lagos,Maullín,Cementerio Municipal de Maullín,No,No Sabe,"Se supone que es un cementerio municipal, pero en la práctica está administrado por la iglesia católica del lugar.",No Sabe,No,No Sabe,No Sabe,,,,,0,Sur
+226,Los Lagos,Puerto Montt,Cementerio General de Puerto Montt,No,Sí,Depto de Cementerios,Sí,Sí,Sí,No,,,Sí,,3,Sur
+227,Los Lagos,Puerto Montt,Cementerio General de Chin Chin,No,Sí,Depto de Cementerios,Sí,Sí,Sí,No,,,Sí,,3,Sur
+228,Los Lagos,Puerto Montt,Cementerio Alerce Histórico,No,No,Depto de Cementerios,Sí,No,Sí,No,,Sí,,,2,Sur
+229,Los Lagos,Puerto Varas,Cementerio Parque Las Rosas,No,No Sabe,"Es un cementerio privado que se traspasará a la municipalidad. Dependerá del Depto de Planificación. Se anunació en septiembre del 2017, pero sigue estancado.",No Sabe,No,No Sabe,No Sabe,,,,,0,Sur
+230,Los Lagos,Fresia,Cementerio Municipal de Fresia,No,No,Depto de Rentas y Patentes,Sí,No,Sí,No,,Sí,,,2,Sur
+231,Los Lagos,Castro,Cementerio Municipal de Castro,No,Sí,Depto de Obras,Sí,Sí,Sí,Sí,,,,Sí,4,Sur
+232,Los Lagos,Ancud,Cementerio Municipal de Ancud,No,Sí,Depto de Aseo y Ornato,Sí,Sí,Sí,Sí,,,,Sí,4,Sur
+233,Aysén,AYSÉN,PUERTO AYSÉN,No,No,Depto de Obras,No,No,No,No,,,,,0,Sur
+234,Aysén,COYHAIQUE,Municipal de Cuatro Vientos,No,No,Depto de Aseo y Ornato,No,No,No,No Sabe,,,,,0,Sur
+235,Aysén,COYHAIQUE,Cementerio Municipal de Coyhaique,No informado,No,Depto de Aseo y Ornato,Sí,No informado,Sí,No Sabe,,Sí,,,2,Sur
+236,Aysén,Cisnes,Cementerio Municipal de Cisnes,No informado,Sí,Depto de Obras,No,Sí,Sí,No,,Sí,,,2,Sur
+237,Aysén,Cisnes,Cementerio Municipal de Puyuhuapi,No informado,Sí,Depto de Obras,No,Sí,No,No,Sí,,,,1,Sur
+238,Aysén,Cisnes,Cementerio Municipal de La Junta,No informado,Sí,Depto de Obras,No,Sí,No,No,Sí,,,,1,Sur
+239,Aysén,Cisnes,Cementerio Municipal de Marín,No informado,Sí,Depto de Obras,No,Sí,No,No,Sí,,,,1,Sur
+240,Aysén,Cochrane,Cementerio Municipal de Cochrane,No,No,Depto de Obras,Sí,No,No,No,Sí,,,,1,Sur
+241,Aysén,Villa O'Higgins,Cementerio Municipal de Villa O´Higgins,No informado,No,Depto. de Administración Municipal,No,No informado,No,No,,,,,0,Sur
+242,Aysén,Caleta Tortel,Cementerio Municipal de Caleta Tortel,No,No,Depto de Obras,Sí,No,No,Sí,,Sí,,,2,Sur
+243,Aysén,Chile chico,Cementerio Municipal de Chile Chico,No informado,No,Depto de Obras,Sí,No informado,No,No,Sí,,,,1,Sur
+244,Aysén,Río Ibañez,Cementerio Municipal de Río Ibañez,No informado,No,Depto de Obras,Sí,No informado,No,No,Sí,,,,1,Sur
+245,Magallanes,PUNTA ARENAS,CEMENTERIO MUNICIPAL SARA BRAUN,No,No,,Sí,No,Sí,Sí,,,Sí,,3,Sur
+246,Magallanes,CABO DE HORNOS,CEMENTERIO MUNICIPAL PUERTO WILLIAMS,No,No,Depto de Obras,No,No,Sí,No,Sí,,,,1,Sur
+247,Magallanes,PORVENIR,CEMENTERIO MUNICIPAL DE PORVENIR,No,No,Depto de Obras,No,No,No,No,,,,,0,Sur
+248,Magallanes,Natales,Cementerio Padre Maria Rosa,No,No,Corporación Municipal,Sí,No,No,Sí,,Sí,,,2,Sur
+249,Magallanes,Natales,Cementerio Padre Hurtado,No,No,Corporación Municipal,Sí,No,Sí,No,,Sí,,,2,Sur
+250,Magallanes,Natales,CEMENTERIO PUERTO EDEN,No,,Delegación Municipal,,No,,,,,,,0,Sur
+251,Magallanes,LAGUNA BLANCA,CEMENTERIO VILLA TEHUELCHES,No,,Secretaría Municipal,,No,,,,,,,0,Sur
+252,Magallanes,Torres del Paine,Cementerio Cerro Castillo,No informado,No,Gestión cultural,No,No informado,No,No,,,,,0,Sur
+253,Metropolitana,EL MONTE,CEMENTERIO DE EL MONTE,Sí,No,Depto de Finanzas,No,Sí,Sí,No,,Sí,,,2,Centro
+254,Metropolitana,PIRQUE,CEMENTERIO MUNICIPAL DE PIRQUE,Sí,No,Depto de Operaciones,No,Sí,No,No,Sí,,,,1,Centro
+255,Metropolitana,Recoleta,Cementerio General,No,No,,Sí,No,No,No,Sí,,,,1,Centro
+256,Metropolitana,Curacaví,Cementerio Municipal de Curacaví,No,No,Depto de Obras,Sí,No,No,No,Sí,,,,1,Centro
+257,Metropolitana,Melipilla,Cementerio Comunal de Melipilla,No,Sí,Oficina de Cementerios,No,Sí,Sí,Sí,,,Sí,,3,Centro
+258,Metropolitana,Colina,Cementerio Municipal de Colina,No,No,Depto. de Desarrollo Comunitario,No,No,No,No,,,,,0,Centro
+259,Metropolitana,Pudahuel,Cementerio Municipal de Pudahuel,No,No,Corporación Municiapl de Desarrllo Social,Sí,No,No,No,Sí,,,,1,Centro
+260,De Los Ríos,Panguipulli,Coñaripe,Sí,,,,Sí,,,Sí,,,,1,Sur
+261,De Los Ríos,Valdivia,Cementerio Municipal 1,No,No,Depto. de Cementerios,Sí,No,Sí,No,,Sí,,,2,Sur
+262,De Los Ríos,Valdivia,Cementerio Municipal 2,Sí,,,,Sí,,,Sí,,,,1,Sur
+263,De Los Ríos,Mariquina,Cementerio Municipal,Sí,,Depto Rentas y Patenes,,Sí,,,Sí,,,,1,Sur
+264,De Los Ríos,Futrono,Cementerio Las Quemas Futrono,Sí,No,Depto Rentas y Patenes,No,Sí,No,No,Sí,,,,1,Sur
+265,De Los Ríos,Futrono,Cementerio O´Higgns,No,No,Depto Rentas y Patenes,Sí,No,Sí,No,,Sí,,,2,Sur
+266,De Los Ríos,Lanco,Cementerio Municipal,No,,Depto de Obras,,No,,,,,,,0,Sur
+267,De Los Ríos,Los Lagos,Cementerio Municipal,No,Sí,Depto de Finanzas,No,Sí,No,No,Sí,,,,1,Sur
+268,De Los Ríos,Paillaco,Cementerio Municipal,No,,,,No,,,,,,,0,Sur
+269,De Los Ríos,Paillaco,******,No informado,,,,No informado,,,,,,,0,Sur
+270,De Los Ríos,Paillaco,******,No informado,,,,No informado,,,,,,,0,Sur
+271,De Los Ríos,Ranco,Cementerio Municipal de Ranco,No,No,Depto de Rentas y Patentes,Sí,No,No,No,Sí,,,,1,Sur
+272,De Los Ríos,Máfil,Cementerio Municipal de Máfil,No,No,Depto de Rentas y Patentes,Sí,No,Sí,No,,Sí,,,2,Sur
+273,De Los Ríos,Río Bueno,Cementerio Municipal,No,,,,No,,,,,,,0,Sur
+274,De Los Ríos,Corral,Cementerio Municipal de Corral,No,No,Depto de Obras,Sí,No,Sí,Sí,,,Sí,,3,Sur
+275,Arica y Parinacota,Arica,Municipal de Arica,Sí,,,,Sí,,,Sí,,,,1,Norte
+276,Arica y Parinacota,Arica,San Miguel de Azapa,Sí,,,,Sí,,,Sí,,,,1,Norte
