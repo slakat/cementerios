@@ -45,7 +45,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Catastro Cementerios</a>
+          <a class="navbar-brand" href="#">Cementerios</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
     
@@ -56,13 +56,25 @@
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-      
+        <div class="row">
+          En la visualización trabajaremos queremos trabajar un formato como el que se utiliza en este <a href="https://pudding.cool/2017/09/clinics/" >reportaje</a>. Simple, con gráficos puntuales que permitan aportar y hacer avanzar la historia. Queremos acomodar el gráfico que muestre la cantidad de cementerios totales de Chile para comprar de inmediato el volumen de los que son municipales, tenemos una <a href="cementerios.html">muestra de esto en la siguiente página</a>, la idea de hacerlo por región es aprovechar que Chile es largo y las regiones se agrupan horizontalmente, por lo que es lógico leer el gráfico de izquierda a derecha, aún estamos discutiendo si es posible hacerlo en vertical (norte a sur) como se <a href="comunas.html">muestra en la siguiente idea</a>.
+
+          En el último gráfico la discusión también pasa por qué tan importante será trabajar por comuna, si es un dato que efectivamente a la gente le gustaría explorar o basta con realizar lo que <a href="cementerios.html">mostramos en esta visualización</a>, poniendo a los más de 200 cementerios como figuras separadas por colores y agrupaciones y que al clickear aparezca información con más detalle.
+
+          Aparte de estas visualizaciones, estamos armando la historia en torno a la ley de cementerios y por qué hay más de un 50% de cementerios municipales sin resolución sanitaria. Queremos ir utilizando pequeños extractos de la ley para transparentar por qué no se está cumpliendo, pero aún así los cementerios siguen funcionando, donde la razón es una mezcla de falta de regularización y una ley que está con problemas desde su creación en los 80'. Revelando las alertas que tienen los cementerios municipales junto con las historias y entrevistas recopiladas (estas últimas relativas a la ley principalmente) explicar el sistema en el que se insertan estas transgresiones.          
+
+
+
+        </div>
       </div>
     </div>
 
     <div class="container">
       <!-- Example row of columns -->
-
+      <div class="row">
+          Tenemos 4 mapas principales que muestran la densidad de cementerios con problema según categoría a lo largo de Chile. A continuación se muestran en una versión preliminar. La forma final de estos mapas será más específica: será solo uno que cambiará dinámicamente los datos por cada alerta al presionar los botones del menú. Decidimos no hacerlo "drilldown" (zoom in) que lleva a ver las comunas, porque en términos estadísticos es muy baja la cantidad de cementerios por comuna.
+        </div>
+        <br>
       <div class="row">
         <div id="container-map-expansion"></div>
         <button class="button">cambiar</button>
