@@ -2,15 +2,13 @@ var margin = {top: 80, right: 20, bottom: 20, left: 50},
     width = 960 - margin.left - margin.right,
     height = 500 - margin.top - margin.bottom;
 
-var y = d3.scale.ordinal()
-    .rangeRoundBands([0, height], .3);
+var y = d3.scale.ordinal().rangeRoundBands([0, height], .3);
 
-var x = d3.scale.linear()
-    .rangeRound([0, width]);
+var x = d3.scale.linear().rangeRound([0, width]);
 
 var xAxis = d3.svg.axis()
     .scale(x)
-    .tickFormat(d3.format(",%"))
+    .tickFormat(d3.format(",alertas"))
     .orient("top");
 
 var yAxis = d3.svg.axis()
@@ -21,16 +19,16 @@ var yAxis = d3.svg.axis()
 var color = d3.scale.ordinal()
     .range(["#d73027","#f46d43","#fdae61","#a6d96a","#66bd63","#1a9850"]);
 
-var svg = d3.select('body').append("svg")
+var svg = d3.select('#comunas').append("svg")
     .attr("width", width + margin.left + margin.right)
     .attr("height", height + margin.top + margin.bottom)
   .append("g")
     .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.csv("data.csv", function(error, data) {
+d3.csv("datos-comunas.csv", function(error, data) {
   
-  var rateNames = d3.keys(data[0]).filter(function(key) { return key !== "rows"; });
-  var rowsNames = data.map(function(d) { return d.rows; });
+  var rateNames = d3.keys(data[0]).filter(function(key) { return key !== "Regiones"; });
+  var rowsNames = data.map(function(d) { return d.Regiones; });
   var neutralIndex = Math.floor(rateNames.length/2);
   
   color.domain(rateNames);
@@ -66,13 +64,13 @@ d3.csv("data.csv", function(error, data) {
       .data(data)
     .enter().append("g")
       .attr("class", "bar")
-      .attr("transform", function(d) { return "translate(0," + y(d.rows) + ")"; })
+      .attr("transform", function(d) { return "translate(0," + y(d.Regiones) + ")"; })
       .on("mouseover", function(d) {
-        svg.selectAll('.y').selectAll('text').filter(function(text) { return text===d.rows; })
+        svg.selectAll('.y').selectAll('text').filter(function(text) { return text===d.Regiones; })
             .transition().duration(100).style('font','15px sans-serif');
       })
       .on("mouseout", function(d) {
-        svg.selectAll('.y').selectAll('text').filter(function(text) { return text===d.rows; })
+        svg.selectAll('.y').selectAll('text').filter(function(text) { return text===d.Regiones; })
             .transition().duration(100).style('font','10px sans-serif');
       });
 
