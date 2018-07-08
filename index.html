@@ -69,8 +69,40 @@
       </div>
     </div>
 
-    <div class="container">
+    <div class="main">
       <!-- Example row of columns -->
+
+      <div class='scrolly'>
+
+  <!-- sticky graphic -->
+  <figure class='sticky'>
+    <!-- chart stuff in here -->
+     HOLAAA
+  </figure>
+
+  <!-- step text -->
+  <article>
+    <div class='step' data-index='0'>
+      <p>Step text</p>
+
+      <div class="row">
+          Tenemos 4 mapas principales que muestran la densidad de cementerios con problema según categoría a lo largo de Chile. A continuación se muestran en una versión preliminar. La forma final de estos mapas será más específica: será solo uno que cambiará dinámicamente los datos por cada alerta al presionar los botones del menú. Decidimos no hacerlo "drilldown" (zoom in) que lleva a ver las comunas, porque en términos estadísticos es muy baja la cantidad de cementerios por comuna.
+        </div>
+    </div>
+
+     <div class='step' data-index='1'>
+      <p>Step text</p>
+
+      <div class="row">
+          tururururuur términos estadísticos es muy baja la cantidad de cementerios por comuna.
+        </div>
+    </div>
+    <!-- ...more steps -->
+  </article>
+
+</div>
+
+
       <div class="row">
           Tenemos 4 mapas principales que muestran la densidad de cementerios con problema según categoría a lo largo de Chile. A continuación se muestran en una versión preliminar. La forma final de estos mapas será más específica: será solo uno que cambiará dinámicamente los datos por cada alerta al presionar los botones del menú. Decidimos no hacerlo "drilldown" (zoom in) que lleva a ver las comunas, porque en términos estadísticos es muy baja la cantidad de cementerios por comuna.
         </div>
@@ -90,6 +122,68 @@
       <div id="container-map-ambiente"></div>
       <hr>
 
+       <h1>Scrollytelling with position: sticky</h1>
+
+<section>
+  
+  <figure>
+    <p>A sticky item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
+
+<section>
+  
+  <figure>
+    <p>A second sticky item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
+
+<section>
+  
+  <figure>
+    <p>A third fixed item</p>
+  </figure>
+  
+  <article>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </article>
+  
+</section>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    
+    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    
+    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+
       <footer>
         <p>&copy; TPA 2018</p>
       </footer>
@@ -97,10 +191,11 @@
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
 
         <script src="js/vendor/bootstrap.min.js"></script>
-
+        <script src="js/enter-view.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
         <script src="js/alarmas.js"></script>
+        
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
