@@ -30,13 +30,15 @@ $.each(data, function (i) {
     this.value = i; // Non-random bogus data
 });
 
+Highcharts.setOptions({
+    lang: {
+        drillUpText: 'Volver a Chile'
+    }
+});
+
+
 // Instantiate the map
 Highcharts.mapChart('container-drilldown', {
-    options:{
-        lang: {
-        drillUpText: 'Volver a '
-    }
-    },
     chart: {
         events: {
             drilldown: function (e) {

@@ -26,7 +26,7 @@
         d.y = h / 2;
       })
       
-      console.table(data); 
+      //console.table(data); 
            
       
       
@@ -44,7 +44,9 @@
       	.call(d3.drag()
                 .on("start", dragstarted)
                 .on("drag", dragged)
-                .on("end", dragended));
+                .on("end", dragended)
+              
+                );
     
       circles = circles.merge(circlesEnter)
       
