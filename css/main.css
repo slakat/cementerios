@@ -8,7 +8,10 @@
 
 
 
-/* color: #f99080*/
+/* color: #f99080
+f97171
+66beb2 */
+
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Condensed');
 
 body{
@@ -137,6 +140,7 @@ figure {
 
 .hero svg.titulo{
 	margin-left: 11%;
+	margin-top: 5%;
 }
 
 .bajada svg{
@@ -154,4 +158,70 @@ figure {
 	font-family: 'Open Sans';
 	text-shadow: 1px 1px 2px rgba(255, 255, 255, 1);
 	font-weight: 600;
+}
+
+
+figure.image {
+  text-align:center;
+  /*position:relative;
+  margin:40px auto;*/
+  height: auto;
+}
+figure.image img {
+  box-shadow:4px 5px 25px rgba(0,0,0,0.6);
+  border:15px solid #fff;
+  position:relative;
+  z-index:100;
+}
+figure.image figcaption {
+  box-shadow:4px 5px 25px rgba(0,0,0,0.6);
+  display:inline;
+  background:#fff;
+  border-radius:10px;
+  font-size:14px;
+  padding:20px;
+  opacity:0;
+  position:absolute;
+  bottom:0;
+  left:0;
+  transform: translateY(10px);
+  transition:1s ease-in-out;
+  animation:twitch 2s ease-in-out 1s 3;
+}
+figure.image:hover figcaption {
+  opacity:1;
+  margin-top:0;
+  transform: translateY(50px);
+  animation:none;
+}
+@keyframes twitch {
+    0% {bottom: 0;}
+    5% {bottom: 5px;}
+    10% {bottom: 0;}
+    15% {bottom: 5px;}
+    20% {bottom: 0;}
+    100% {bottom: 0;}
+}
+
+
+.button{
+	background: white;
+	padding: 10px;
+	border-radius: 5px;
+	color: black;
+	border-style: unset;
+	margin-right: 10px;
+	font-size: 16px;
+	font-family: "Roboto Condensed";
+	border-color: #eee;
+}
+
+.button.active{
+	background-color: #f97171;
+	color: white;
+}
+
+.button:hover{
+	background-color: #eee;
+	border-color: #f97171;
 }

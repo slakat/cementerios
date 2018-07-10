@@ -35,7 +35,7 @@ var data_colapso = [
 ['cl-li', 8], //O'Higgins
 ['cl-ta', 5], //Tarapacá
 ['cl-vs', 9] //Valparaíso
-]
+];
 
 var data_sanitario = [
 ['cl-an', 7], //Antofagasta
@@ -53,7 +53,7 @@ var data_sanitario = [
 ['cl-li', 9], //O'Higgins
 ['cl-ta', 2], //Tarapacá
 ['cl-vs', 15], //Valparaíso
-]
+];
 
 var data_ambiente = [
 ['cl-an', ], //Antofagasta
@@ -71,12 +71,12 @@ var data_ambiente = [
 ['cl-li', 4], //O'Higgins
 ['cl-ta', 1], //Tarapacá
 ['cl-vs', 3], //Valparaíso
-]
+];
 
 
 
 // Create the chart
-h=Highcharts.mapChart('container-map', {
+var mainChart=Highcharts.mapChart('container-map', {
     chart: {
         map: 'countries/cl/cl-all',
         backgroundColor: "#000",
@@ -137,59 +137,59 @@ h=Highcharts.mapChart('container-map', {
 
 
 function sanitario() {
-    console.log(h);
+    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
-        chart= h.series[0];
-        chart.setData(data_sanitario);
-        h.colorAxis[0].update({
+        chart= mainChart;
+        chart.series[0].setData(data_sanitario);
+        chart.colorAxis[0].update({
           maxColor: "#f97171" // Value is 353573853
         }, true);
-        h.setTitle({
+        chart.setTitle({
           text: "Cementerios Sin Autorización Sanitaria"});
     };
 
 
 function colapso() {
-    console.log(h);
+    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
-        chart= h.series[0];
-        chart.setData(data_colapso);
-        h.colorAxis[0].update({
+        chart= mainChart;
+        chart.series[0].setData(data_colapso);
+        chart.colorAxis[0].update({
           maxColor: "#66beb2" // Value is 353573853
         }, true);
-        h.setTitle({
+        chart.setTitle({
           text: "Cementerios con colapso"});
     };
 
 function expansion() {
-    console.log(h);
+    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
-        chart= h.series[0];
-        chart.setData(data_expansion);
-        h.colorAxis[0].update({
+        chart= mainChart;
+        chart.series[0].setData(data_expansion);
+        chart.colorAxis[0].update({
           maxColor: "#f97171" // Value is 353573853
         }, true);
-        h.setTitle({
+        chart.setTitle({
           text: "Cementerios con problemas de expansión"});
     };
 
 function ambiente() {
-    console.log(h);
+    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
-        chart= h.series[0];
-        chart.setData(data_ambiente);
-         h.colorAxis[0].update({
+        chart= mainChart;
+        chart.series[0].setData(data_ambiente);
+         chart.colorAxis[0].update({
           maxColor: "#66beb2" // Value is 353573853
         }, true);
-         h.setTitle({
+         chart.setTitle({
           text: "Cementerios con riesgo medioambiental"});
     };
 

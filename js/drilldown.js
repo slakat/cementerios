@@ -32,9 +32,16 @@ $.each(data, function (i) {
 
 // Instantiate the map
 Highcharts.mapChart('container-drilldown', {
+    options:{
+        lang: {
+        drillUpText: 'Volver a '
+    }
+    },
     chart: {
         events: {
             drilldown: function (e) {
+                 alert(e.point.name);
+
                 if (!e.seriesOptions) {
                     var chart = this,
                         mapKey = 'assets/geo/'+ e.point.drilldown, 
@@ -60,6 +67,7 @@ Highcharts.mapChart('container-drilldown', {
                         $.each(data, function (i) {
                             this.value = i;
                             this.name = this.properties.NOM_COM;
+                            this.county = true;
                         });
 
                         // Hide loading and add series
@@ -80,7 +88,7 @@ Highcharts.mapChart('container-drilldown', {
             },
             drillup: function () {
                 this.setTitle(null, { text: '' });
-            }
+            },
         },
     backgroundColor: "#000",
     },
@@ -132,8 +140,11 @@ Highcharts.mapChart('container-drilldown', {
                 hover: {
                     color: '#7171f9'
                 }
-            }
-        }
+            },
+            events:{click: function (e) {
+                if (e.point.county){
+                    console.log(e.point.name);}}}
+        },
     },
 
     series: [{
