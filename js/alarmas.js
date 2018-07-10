@@ -76,7 +76,7 @@ var data_ambiente = [
 
 
 // Create the chart
-Highcharts.mapChart('container-map-expansion', {
+h=Highcharts.mapChart('container-map-expansion', {
     chart: {
         map: 'countries/cl/cl-all'
     },
@@ -114,6 +114,14 @@ Highcharts.mapChart('container-map-expansion', {
         }
     }]
 });
+
+$('#setdata').click(function () {
+    console.log(h);
+        $.each(h.series[0].data, function () {
+            this.value = Math.round(Math.random() * 1000);
+        });
+        h  .series[0].setData(h.series[0].data);
+    });
 
 
 // Create the chart

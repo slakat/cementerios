@@ -31,7 +31,7 @@ $.each(data, function (i) {
 });
 
 // Instantiate the map
-Highcharts.mapChart('container', {
+Highcharts.mapChart('container-drilldown', {
     chart: {
         events: {
             drilldown: function (e) {
@@ -81,11 +81,20 @@ Highcharts.mapChart('container', {
             drillup: function () {
                 this.setTitle(null, { text: '' });
             }
-        }
+        },
+    backgroundColor: "#000",
     },
 
     title: {
         text: ''
+    },
+
+    exporting:{
+        enabled: false
+    },
+
+    credits:{
+        enabled: false
     },
 
     subtitle: {
@@ -106,8 +115,8 @@ Highcharts.mapChart('container', {
 
     colorAxis: {
         min: 0,
-        minColor: '#E6E7E8',
-        maxColor: '#005645'
+        minColor: '#EEEEFF',
+        maxColor: '#f97171',
     },
 
     mapNavigation: {
@@ -121,7 +130,7 @@ Highcharts.mapChart('container', {
         map: {
             states: {
                 hover: {
-                    color: '#EEDD66'
+                    color: '#7171f9'
                 }
             }
         }

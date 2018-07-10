@@ -1,13 +1,54 @@
 enterView({
-	selector: '.step',
-	offset: 0.5,
-	enter: el => {
-		//const index = +d3.select(el).attr('data-index');
-		//updateChart(index);
-	},
-	exit: el => {
-		//let index = +d3.select(el).attr('data-index');
-		//index = Math.max(0, index - 1);
-		//updateChart(index);
-	}
+    selector: '.step-sanitario',
+    enter: function(el) {
+        el.classList.add('entered');
+        sanitario();
+    }
 });
+
+
+enterView({
+    selector: '.step-expansion',
+    enter: function(el) {
+        el.classList.add('entered');
+        expansion();
+    },
+    exit: function(el) {
+        el.classList.add('entered');
+        colapso();
+    } 
+});
+
+
+enterView({
+    selector: '.step-colapso',
+    enter: function(el) {
+        el.classList.add('entered');
+        colapso();
+    },
+    exit: function(el) {
+        el.classList.add('entered');
+        sanitario();
+    }
+});
+
+enterView({
+    selector: '.step-ambiente',
+    enter: function(el) {
+        el.classList.add('entered');
+        ambiente();
+    },
+    exit: function(el) {
+        el.classList.add('entered');
+        expansion();
+    }
+});
+
+
+$("#keep").click(function() {
+	console.log("scrol");
+    $('html,body').animate({
+        scrollTop: $(".main").offset().top-50},
+        'slow');
+});
+

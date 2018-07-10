@@ -14,8 +14,8 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
             body {
-                padding-top: 50px;
-                padding-bottom: 20px;
+                /*padding-top: 50px;
+                padding-bottom: 20px;*/
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
@@ -24,18 +24,24 @@
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
 
+
+
         <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script src="https://code.highcharts.com/maps/highmaps.js"></script>
 <script src="https://code.highcharts.com/maps/modules/data.js"></script>
+<script src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+
 <script src="https://code.highcharts.com/maps/modules/exporting.js"></script>
 <script src="https://code.highcharts.com/maps/modules/offline-exporting.js"></script>
 <script src="https://code.highcharts.com/mapdata/countries/cl/cl-all.js"></script>
+
+<script src="https://d3js.org/d3.v4.min.js"></script>
 
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+        <![endif]
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <div class="navbar-header">
@@ -49,140 +55,177 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
     
-        </div><!--/.navbar-collapse -->
+        </div><!--/.navbar-collapse 
       </div>
-    </nav>
+    </nav>-->
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <div class="row">
-          En la visualización trabajaremos queremos trabajar un formato como el que se utiliza en este <a href="https://pudding.cool/2017/09/clinics/" >reportaje</a>. Simple, con gráficos puntuales que permitan aportar y hacer avanzar la historia. Queremos acomodar el gráfico que muestre la cantidad de cementerios totales de Chile para comprar de inmediato el volumen de los que son municipales, tenemos una <a href="cementerios.html">muestra de esto en la siguiente página</a>, la idea de hacerlo por región es aprovechar que Chile es largo y las regiones se agrupan horizontalmente, por lo que es lógico leer el gráfico de izquierda a derecha, aún estamos discutiendo si es posible hacerlo en vertical (norte a sur) como se <a href="comunas.html">muestra en la siguiente idea</a>.
+    <!--header landing-->
+    <section class="hero">
+      <div class="hero-inner">
+         
+          <svg class="titulo" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+           width="450px" height="240px" xml:space="preserve">
+            <defs>
+              <pattern id="water" width=".25" height="1.1" patternContentUnits="objectBoundingBox">
+                <path fill="#000" d="M0.25,1H0c0,0,0-0.659,0-0.916c0.083-0.303,0.158,0.334,0.25,0C0.25,0.327,0.25,1,0.25,1z"/>
+              </pattern>
+              
+              <text id="text" transform="translate(2,116)" font-family="'Cabin Condensed'" font-size="80.047">Cementerios</text>
+              
+              <mask id="text-mask">
+                <use x="0" y="0" xlink:href="#text" opacity="1" fill="#ffffff"/>
+              </mask>
+              
+              <g id="eff">
+                <use x="0" y="0" xlink:href="#text" fill="#a2a3a5"/>
+            
+            <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" x="-300" y="50" width="1200" height="120" opacity="0.3">
+              <animate attributeType="xml" attributeName="x" from="-300" to="0" repeatCount="indefinite" dur="2s"/>
+            </rect>
+             <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="45" width="1600" height="120" opacity="0.3">
+              <animate attributeType="xml" attributeName="x" from="-400" to="0" repeatCount="indefinite" dur="3s"/>
+            </rect>
+                
+            <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="800" height="120" opacity="0.3">
+              <animate attributeType="xml" attributeName="x" from="-200" to="0" repeatCount="indefinite" dur="1.4s"/>
+            </rect>
+                <rect class="water-fill" mask="url(#text-mask)" fill="url(#water)" y="55" width="2000" height="120" opacity="0.3">
+              <animate attributeType="xml" attributeName="x" from="-500" to="0" repeatCount="indefinite" dur="2.8s"/>
+            </rect>
+              </g>
+            </defs>
+         
+            <use xlink:href="#eff" opacity="0.9" style="mix-blend-mode:color-burn"/>
+          </svg>
 
-          En el último gráfico la discusión también pasa por qué tan importante será trabajar por comuna, si es un dato que efectivamente a la gente le gustaría explorar o basta con realizar lo que <a href="cementerios.html">mostramos en esta visualización</a>, poniendo a los más de 200 cementerios como figuras separadas por colores y agrupaciones y que al clickear aparezca información con más detalle.
-
-          Aparte de estas visualizaciones, estamos armando la historia en torno a la ley de cementerios y por qué hay más de un 50% de cementerios municipales sin resolución sanitaria. Queremos ir utilizando pequeños extractos de la ley para transparentar por qué no se está cumpliendo, pero aún así los cementerios siguen funcionando, donde la razón es una mezcla de falta de regularización y una ley que está con problemas desde su creación en los 80'. Revelando las alertas que tienen los cementerios municipales junto con las historias y entrevistas recopiladas (estas últimas relativas a la ley principalmente) explicar el sistema en el que se insertan estas transgresiones.          
-
-
-
+        
+        
+        <div class="bajada">  
+                          <svg width="500" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+         <path id="path">
+            <animate attributeName="d" from="m0,110 h0" to="m0,110 h1100" dur="6.8s" begin="0s" repeatCount="indefinite"/>
+          </path>
+          <text font-size="26" font-family="Roboto Condensed" fill='#ffe4dd'>
+            <textPath xlink:href="#path">
+             Cementerios Municipales en Chile
+            </textPath>
+          </text>
+        </svg>
+               
+         <p>El Cementerio General de Santiago no tiene autorización sanitaria para funcionar según la actual legislación. Este es uno de los 174 cementerios municipales que hoy no podrían operar según el actual Reglamento de Cementerios. Además 140 de los 275 camposantos administrados por municipios están colapsados o al límite de su capacidad de sepultación.</p>
+       </div>
+                
+                <a href="#" class="btn" id="keep">Continuar</a>
         </div>
-      </div>
+      </section>
+
+ 
+    <section id="intro" class="main">
+      <p>En Chile se confirmaron 1.147 cementerios que se dividen entre los administrados por municipalidades y por instituciones privadas, entre las que se cuentan juntas de vecinos, la Iglesia Católica, comunidades indígenas y empresas que entregan servicios de sepultación.</p>
+
+      <p>Del total se rastrearon 275 cementerios que representan cerca de un cuarto del universo disponible, quienes exclusivamente reciben recursos municipales. Además son los únicos que deben tener un 30% de disposición para beneficio social, los cuales se hacen efectivos a través de la Asignación por muerte. Recurso que asegura el entierro a personas en casos de vulnerabilidad. 
+      </p>
+
+      <div id="container-comunas" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+
+      <p>
+        Todos son regulados por el Código Sanitario y por el Reglamento General de Cementerios creado mediante decreto en 1970. Este último estipula los requisitos para que un cementerio pueda ser aprobado para funcionar por la autoridad sanitaria zonal correspondiente, trabajo que hoy recae en las Seremis de Salud de cada región.   
+      </p>
+
+      <p>
+        Pero esto no siempre fue así. La antigüedad de los cementerios y la modernización de las instituciones que regulaban a los camposantos produjo que los antiguos quedaran en condiciones desiguales de los más recientes. Este es el caso del emblemático Cementerio General de Chile, fundado en 1821 por Bernardo O’Higgins, que no se encuentra en la lista de autorizados según información entregada mediante ley de transparencia por la Seremi de Salud de Santiago.
+      </p>
+    </section>
+
+    <section id="drilldown" class="black-bg">
+      <div class="main">
+      <h2>Explora</h2>
+      <h4>Cementerios Municipales por comuna</h4>
+
+      <div id="container-drilldown" style="height: 500px; min-width: 310px; max-width: 800px; margin: 0 auto"></div>
     </div>
-
-    <div class="main">
-      <!-- Example row of columns -->
-
-      <div class='scrolly'>
-
-  <!-- sticky graphic -->
-  <figure class='sticky'>
-    <!-- chart stuff in here -->
-     HOLAAA
-  </figure>
-
-  <!-- step text -->
-  <article>
-    <div class='step' data-index='0'>
-      <p>Step text</p>
-
-      <div class="row">
-          Tenemos 4 mapas principales que muestran la densidad de cementerios con problema según categoría a lo largo de Chile. A continuación se muestran en una versión preliminar. La forma final de estos mapas será más específica: será solo uno que cambiará dinámicamente los datos por cada alerta al presionar los botones del menú. Decidimos no hacerlo "drilldown" (zoom in) que lleva a ver las comunas, porque en términos estadísticos es muy baja la cantidad de cementerios por comuna.
-        </div>
-    </div>
-
-     <div class='step' data-index='1'>
-      <p>Step text</p>
-
-      <div class="row">
-          tururururuur términos estadísticos es muy baja la cantidad de cementerios por comuna.
-        </div>
-    </div>
-    <!-- ...more steps -->
-  </article>
-
-</div>
+    </section>
 
 
-      <div class="row">
-          Tenemos 4 mapas principales que muestran la densidad de cementerios con problema según categoría a lo largo de Chile. A continuación se muestran en una versión preliminar. La forma final de estos mapas será más específica: será solo uno que cambiará dinámicamente los datos por cada alerta al presionar los botones del menú. Decidimos no hacerlo "drilldown" (zoom in) que lleva a ver las comunas, porque en términos estadísticos es muy baja la cantidad de cementerios por comuna.
-        </div>
-        <br>
-      <div class="row">
-        <div id="container-map-expansion"></div>
-        <button class="button">cambiar</button>
-      </div>
 
-      <div class="row"></div>
-      <div id="container-map-colapso"></div>
+    <section id="autorizacion" class="main">
+      <p>El administrador del Cementerio General de Los Ángeles, Alfonso Arriagada, explica que hay muy pocos datos sobre los camposantos “el ministerio (salud) como gobierno no está pendiente de la administración que lleva la municipalidad”. Los registros en muchos casos están perdidos o en desorden. Cada municipio es independiente en la gestión de estos recintos, por ende, puede estar sujeto al Departamento de Obras, Aseo y Ornato, Salud, Bienes Traspasados o Finanzas. En algunos casos en más de una unidad.</p> 
 
-      <div class="row"></div>
-      <div id="container-map-sanitario"></div>
+      <img src="imagenes/c-colina.jpg" width="300" alt="Cementerio Colina" >
 
-      <div class="row"></div>
-      <div id="container-map-ambiente"></div>
+    </section>
+
+
+<section class="black-bg">
+  <div class="main sticky">
+    
+  <figure>
+    <h1>Alarmas de cementerio por región</h1>
+     
+      <div id="container-map"></div>
       <hr>
-
-       <h1>Scrollytelling with position: sticky</h1>
-
-<section>
-  
-  <figure>
-    <p>A sticky item</p>
   </figure>
   
   <article>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
+    <div class="step step-sanitario">
+      <h3>Sin Resolución al día</h3>
+      <p>Según los datos recolectados vía ley de transparencia y entrevistas a administradores 174 de los 275 camposantos municipales no cuentan con autorización sanitaria. Cementerios como el General de Concepción, el Municipal de Coquimbo, el N° 1 de Iquique, el N° 1 y 2 de Valparaíso, el N° 1 y 2 de Rancagua y el Cementerio General de Temuco forman parte de la nómina.</p>
+
+      <p>Los nueve cementerios municipales de la  región de O’Higgins no cuentan con resolución sanitaria. Mientras que el Bío Bío tiene 51 establecimientos sin la normativa al día, lo que corresponde al 82%. Estas diferencias se producen porque la distribución de camposantos administrados por municipios es desigual a nivel nacional. Arica y Parinacota sólo cuenta con dos recintos mortuorios no privados.</p>
+
+      <p>Esta situación se debe a que hasta 1982 existían los cementerios privados y públicos, pero dentro de estos últimos estaban los administrados por el Estado o generales y por los municipios. Ese año se dicta la ley 18.096 que traspasó todos lo camposantos pertenecientes al Estado a los gobiernos locales.</p>
+
+      <p>En primera instancia desde 1952 hasta 1979 la fiscalización recayó en el Servicio Nacional de Salud que velaba por el cumplimiento del reglamento de 1932 y, después por el Reglamento General de Cementerios de 1970. Después de 1979 la inspección pasó a ser facultad de los Servicios de Salud regionales y del Servicio de Salud Metropolitano del Ambiente (SESMA) en la capital. Finalmente, en 2004 el DFL 2.763 creó las Secretarías  Regionales Ministeriales de Salud que hasta hoy son las responsables de verificar sanitariamente a los establecimientos.</p>
+
+      
+
+    </div>
     
-    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
+    <div class="step step-colapso">
+    <h3>Colapso en cementerios</h3>
+    <p class="">En Chile la mayoría de los cementerios municipales fueron creados antes de que  hubiera fiscalización sanitaria. Actualmente estas instituciones peligran constantemente con el colapso del número de tumbas, problema que se intenta revertir año a año a través de reducciones de cuerpos. Según los datos recolectados 140 de los 275 recintos mortuorios no tienen más de cinco años de vida útil. </p>
+
+    <p>Arriagada explica que el colapso de cementerios es un tema recurrente a nivel nacional, el cual debe ser planificado con anticipación para poder extender la duración de los camposantos. No poder enterrar es “una multa sanitaria espantosa”. </p>
+
     
-    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+  </div>
+
+     <div class="step step-expansion">
+      <h3>Problemas de expansión</h3>
+      <p>Ante la alerta los municipios han maniobrado estrategias de expansión hacia terrenos colindantes o reestructurando edificaciones internas. Situación que se complicó por la urbanización de las ciudades en el entorno de los cementerios y por la escasez de recursos municipales para adquirir nuevos terrenos.</p>
+
+      <p>El administrador de los cementerios N°1 y N°3 de Iquique, Silvio Cruzat, indica que actualmente el primero sólo hay entierro en mausoleos, es decir, edificaciones familiares antiguas y los nichos ya no están a la venta. Mientras que el segundo está en un 90% de su capacidad. Aunque “hay un espacio donde se hará un pabellón, es necesario hacer un nuevo cementerio”.</p>
+    </div>
+
+
+  <div class="step step-ambiente">
+    <h3>Un riesgo medioambiental</h3>
+    <p>Hay zonas donde los cementerios no fueron creados para soportar las condiciones geográficas, lo que afecta su funcionamiento. Este es el caso del cementerio de Tierra Amarilla, que cuando llueve por la falta de drenajes se inunda, generando barro y deteriorando las tumbas.</p>
+
+    <p>Un caso similar es el Cementerio Cerrillos de Tamaya, que tiene más de cien años de antigüedad. Su construcción no soporta las lluvias porque está edificado al borde de una quebrada, situación que antecede a la ley de 1970 que prohíbe estos establecimientos cerca de afluentes. </p>
+
+    <p>Por otra parte, camposantos en la Araucanía como el Municipal de Los Sauces, Municipal de Huiscapi o Municipal de Loncoche, entre otros, están sobre napas subterráneas, situación que provoca filtraciones que dejan inutilizable parte del terreno de sepultación y el deterioro de nichos y tumbas.</p> 
+  </div>
   </article>
-  
 </section>
 
-<section>
-  
-  <figure>
-    <p>A second sticky item</p>
-  </figure>
-  
-  <article>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
-    
-    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
-    
-    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
-  </article>
-  
+
+<section class="main">
+  <h1>Cementerios con más problemas acumulados</h1>
+  <p>A nivel nacional hay 91 cementerios con dos alertas, dónde 57 combinan colapso y la falta de expansión. Mientras que 29 tienen tres problemas, siendo la dimensión ambiental la menos frecuente. En Chile se encontraron 15 en estado crítico, con problemas de cupo, sin resolución sanitaria ni posibilidades de compra de terreno, además de estar en zonas de riesgo. 
+</p>
+
+ <div class="row" id="visual">
+         <div id="toolbar">
+          <button id="all" class="button active">Todos</button>
+          <button id="Zona" class="button">Por Zona</button>
+          <button id="Alertas" class="button">Por Cantidad de alertas</button>
+        </div>
+      </div>
 </section>
 
-<section>
-  
-  <figure>
-    <p>A third fixed item</p>
-  </figure>
-  
-  <article>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
-    
-    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
-    
-    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
-  </article>
-  
-</section>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
-    
-    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
-    
-    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
-
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec interdum tellus felis, at lobortis orci sollicitudin ac. Donec lobortis sapien ac posuere faucibus. Mauris lectus neque, pretium non volutpat eget, vestibulum at magna. In sollicitudin augue nunc, non bibendum augue ornare quis.</p>
-    
-    <p>Integer accumsan interdum justo eu pretium. Aliquam maximus mi sit amet dapibus efficitur.</p>
-    
-    <p>Sed condimentum lacus sit amet turpis aliquam varius nec a lacus. In facilisis convallis ante sit amet consequat. Aenean a lorem mollis, bibendum nibh nec, maximus orci. Nulla facilisi.</p>
+   
 
       <footer>
         <p>&copy; TPA 2018</p>
@@ -194,7 +237,12 @@
         <script src="js/enter-view.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/alarmas.js"></script>
+        <script src="js/alarmas-final.js"></script>
+        <script src="js/comunas.js"></script>
+        <script src="js/drilldown.js"></script>
+        <script src="js/cementerios.js"></script>
+
+
         
 
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->

@@ -58,5 +58,13 @@ $.getJSON('https://code.highcharts.com/mapdata/countries/cl/cl-all.geo.json', fu
             }
         }]
     });
+
+    // Activate the button
+    $('#setdata').click(function () {
+        $.each(data, function () {
+            this.value = Math.round(Math.random() * 1000);
+        });
+        chart.series[0].setData(data);
+    });
 });
 
