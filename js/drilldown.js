@@ -19,6 +19,24 @@ TODO:
 [Log] Antofagasta – "cl-an" (drilldown.js, line 16)
 */
 
+var dict = {
+    'cl-2740' : 2,
+'cl-ta' : 8,
+'cl-an' : 8,
+'cl-at' : 9,
+'cl-co' : 28,
+'cl-vs' : 19,
+'cl-rm' : 7,
+'cl-li' : 9,
+'cl-ml' : 8,
+'cl-bi' : 62,
+'cl-2730' : 47,
+'cl-ar' : 15,
+'cl-ll' : 31,
+'cl-ai' : 12,
+'cl-ma' : 8,
+};
+
 var data = Highcharts.geojson(Highcharts.maps['countries/cl/cl-all']),
     separators = Highcharts.geojson(Highcharts.maps['countries/cl/cl-all'], 'mapline'),
     // Some responsiveness
@@ -33,7 +51,7 @@ d3.csv("data.csv", function(data){
 // Set drilldown pointers
 $.each(data, function (i) {
     this.drilldown = this.properties['hc-key'];
-    this.value = i; // Non-random bogus data
+    this.value = dict[this.properties['hc-key']]; // Non-random bogus data
 });
 
 Highcharts.setOptions({
@@ -72,10 +90,11 @@ Highcharts.mapChart('container-drilldown', {
 
                         // Set a non-random bogus value
                         $.each(data, function (i) {
-                            this.value = i;
                             this.name = this.properties.NOM_COM;
                             this.county = true;
                             this.region = e.point.name;
+                            console.log(getFilteredData(cementerios, this.properties.NOM_COM, e.point.name));
+                            this.value = getFilteredData(cementerios, this.properties.NOM_COM, e.point.name).length;
                         });
 
                         // Hide loading and add series
