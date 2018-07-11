@@ -93,7 +93,6 @@ Highcharts.mapChart('container-drilldown', {
                             this.name = this.properties.NOM_COM;
                             this.county = true;
                             this.region = e.point.name;
-                            console.log(getFilteredData(cementerios, this.properties.NOM_COM, e.point.name));
                             this.value = getFilteredData(cementerios, this.properties.NOM_COM, e.point.name).length;
                         });
 

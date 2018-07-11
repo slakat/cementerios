@@ -113,7 +113,7 @@
           </text>
         </svg>
         
-         <p>El Cementerio General de Santiago no tiene autorización sanitaria para funcionar según la actual legislación. Este es uno de los 174 cementerios municipales que hoy no podrían operar según el actual Reglamento de Cementerios. Además 140 de los 275 camposantos administrados por municipios están colapsados o al límite de su capacidad de sepultación.</p>
+         <p>El Cementerio General de Santiago no tiene autorización sanitaria para funcionar según la actual legislación. Este es uno de los 181 cementerios municipales que hoy no podrían operar según el actual Reglamento de Cementerios. Además 147 de los 273 camposantos administrados por municipios están colapsados o al límite de su capacidad de sepultación. Esta investigación contactó exitosamente a 261 establecimientos generales. </p>
        </div>
                 
                 <a href="#" class="btn" id="keep">Continuar</a>
@@ -129,10 +129,14 @@
       <p>Del total 273 son cementerios municipales que representan cerca de un cuarto del universo disponible, quienes exclusivamente reciben recursos de los gobiernos locales. Además son los únicos que deben tener un 30% de disposición para beneficio social, los cuales se hacen efectivos a través de la Asignación por muerte. Recurso que asegura el entierro a personas en casos de vulnerabilidad.
       </p>
 
-
+      <hr>
+      <h4>Distribución de cementerios por privados y municipales por región</h4>
+      <p style="font-size: 12px">
+      No existe una base datos oficial sobre camposantos en Chile. En esta investigación se localizaron 1.145 cementerios, que se dividen entre los administrados por municipalidades y por instituciones privadas. En éstos últimos se cuentan juntas de vecinos, la Iglesia Católica, comunidades indígenas y empresas que entregan servicios de sepultación.
+      </p>
 
       <div id="container-comunas" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
-
+      <hr>
       <p>Todos son regulados por el Código Sanitario y por el Reglamento General de Cementerios creado mediante decreto en 1970. Este último estipula los requisitos para que un cementerio pueda ser aprobado para funcionar por la autoridad sanitaria zonal correspondiente, trabajo que hoy recae en las Seremis de Salud de cada región.  </p>
 
       <p>
@@ -144,8 +148,9 @@
     <section id="drilldown" class="black-bg">
       <div id="drill-table"></div>
       <div class="main">
-      <h2>Explora</h2>
-      <h4>Cementerios Municipales por comuna</h4>
+      <h2>Cementerios Municipales por comuna</h2>
+      <p>Regiones de Chile con los cementerios municipales. Al hacer click puedes elegir la región y descubrir cuáles son los recintos mortuorios municipales haciendo click en cada comuna. 
+      </p>
 
       <div id="container-drilldown" style="height: 500px; min-width: 310px; max-width: 800px; margin: 0 auto"></div>
     </div>
@@ -200,7 +205,7 @@
     
   <figure>
     <h1>Topografía en diferentes dimensiones</h1>
-     
+     <p>Al bajar en el mapa se muestran las cuatro alarmas: colapso, falta de expansión, falta de resolución sanitaria y riesgo medioambiental.</p>
       <div id="container-map"></div>
       <hr>
   </figure>
@@ -272,6 +277,26 @@ Quienes dirigen camposantos lidian constantemente con la amenaza de quedar satur
 
   <p>Actualmente el costo de entierro mínimo es de $400.000 en un cementerio general, mientras que uno privado parte del millón de pesos. El cobro por la mantención de estos establecimientos debe asegurar su proyección al futuro, arista que en la actualidad no se está cumpliendo. </p>
 
+<h2>Explora los cementerios y sus alertas</h2>
+<p>Cada esfera representa un cementerio. Al pasar por encima podrás ver los datos de su ubicación y el tipo de alarma que presenta.</p>
+<span>Leyenda:</span>
+<div class='wrap'>
+  <div class='color peach'>
+    No tiene alertas
+  </div>
+  <div class='color orange'>
+    Tiene 1 alertas
+  </div>
+  <div class='color gray'>
+    Tiene 2 alertas
+  </div>
+  <div class='color green'>
+    Tiene 3 alertas
+  </div>
+  <div class='color blue'>
+    Tiene 4 alertas
+  </div>
+</div>
  <div class="row" id="visual">
         <div id="tooltip"></div>
          <div id="toolbar">
@@ -279,6 +304,7 @@ Quienes dirigen camposantos lidian constantemente con la amenaza de quedar satur
           <button id="Zona" class="button">Por Zona</button>
           <button id="Alertas" class="button">Por Cantidad de alertas</button>
         </div>
+
       </div>
 </section>
 

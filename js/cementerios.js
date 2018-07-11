@@ -1,10 +1,12 @@
     console.clear()
-    var w = 1060, h = 700;
+    var w = 940, h = 700;
     
     var radius = 5;
     var color = d3.scaleOrdinal(d3.schemeCategory20);
     var centerScale = d3.scalePoint().padding(1).range([0, w]);
     var forceStrength = 0.2;
+    //var colors=["rgb(255, 187, 120)","rgb(255, 127, 14)","rgb(174, 199, 232)","rgb(44, 160, 44)","rgb(31, 119, 180)"]
+
     
     var svg = d3.select("#visual").append("svg")
       .attr("width", w)
