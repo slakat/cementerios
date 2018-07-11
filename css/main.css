@@ -236,7 +236,7 @@ span.alerta{
 	padding: 5px;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	width: 50px;
+	min-width: 150px;
 }
 
 .alerta.Sí{
@@ -244,7 +244,7 @@ span.alerta{
 	color: white;
 }
 
-.alerta.No.informado{
+.alerta.No.informado, .alerta.No.Sabe{
 	background: yellow;
 	color: black;
 }

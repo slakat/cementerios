@@ -42,8 +42,6 @@ Highcharts.mapChart('container-drilldown', {
     chart: {
         events: {
             drilldown: function (e) {
-                 alert(e.point.name);
-
                 if (!e.seriesOptions) {
                     var chart = this,
                         mapKey = 'assets/geo/'+ e.point.drilldown, 
