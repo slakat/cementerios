@@ -24,6 +24,12 @@ var data = Highcharts.geojson(Highcharts.maps['countries/cl/cl-all']),
     // Some responsiveness
     small = $('#container').width() < 400;
 
+var cementerios;
+d3.csv("data.csv", function(data){
+   cementerios=data;
+   });;
+    
+
 // Set drilldown pointers
 $.each(data, function (i) {
     this.drilldown = this.properties['hc-key'];
@@ -42,6 +48,7 @@ Highcharts.mapChart('container-drilldown', {
     chart: {
         events: {
             drilldown: function (e) {
+                /*console.table(cementerios);*/
                 if (!e.seriesOptions) {
                     var chart = this,
                         mapKey = 'assets/geo/'+ e.point.drilldown, 
@@ -68,6 +75,7 @@ Highcharts.mapChart('container-drilldown', {
                             this.value = i;
                             this.name = this.properties.NOM_COM;
                             this.county = true;
+                            this.region = e.point.name;
                         });
 
                         // Hide loading and add series
@@ -143,7 +151,9 @@ Highcharts.mapChart('container-drilldown', {
             },
             events:{click: function (e) {
                 if (e.point.county){
-                    console.log(e.point.name);}}}
+                    showtable(e.point.name,e.point.region);
+                    $('#myModal').modal('show');
+                    }}}
         },
     },
 
@@ -180,3 +190,46 @@ Highcharts.mapChart('container-drilldown', {
     }
 });
 
+
+var tooltable = d3.select("#drill-table")
+         .style("position", "absolute")
+         .style("z-index", "10")
+         .style("visibility", "hidden");
+
+
+
+var showtable = function(name,region){
+    var d = getFilteredData(cementerios, name, region);
+    var c="";
+    d.forEach(function(result){
+        c=c+"<tr><td class='text-right'>"+result.nombre+"</td><td>"+result.region+"</td></tr>";
+    })
+    if(!c|| c.length === 0){
+        text= "<center>Ubicación: <br><b>Región de "+region+"</b><br>"+
+               "Nombre: <br><b>"+name+"</b><br>"+
+               "<hr><p><b>Cementerios</b></p></hr>"+
+              "<span class='alert Sí'>No hay cementerios MUNICIPALES en la comuna</span></center>";
+    }
+
+    else{
+
+    text="<center>Ubicación: <br><b>Región de "+region+"</b><br>"+
+               "Nombre: <br><b>"+name+"</b><br>"+
+               "<hr><p><b>Cementerios</b></p></hr></center>"+
+               "<table cellpadding='0' cellspacing='0' border='0'>"+
+                  "<thead><tr><th>NOMBRE</th></tr></thead>"+
+                  "<tbody>"+
+                  c+
+                  "</tbody>"+
+                "</table>";
+    }
+
+
+  $("#myModal .modal-body").html(text);
+
+};
+
+// Get a subset of the data based on the group
+function getFilteredData(data, comuna, region) {
+    return data.filter(function(point) { return (point.comuna === comuna && point.region === region); });
+}
