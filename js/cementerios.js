@@ -1,10 +1,10 @@
     console.clear()
-    var w = 960, h = 700;
+    var w = 1060, h = 700;
     
-    var radius = 2;
+    var radius = 5;
     var color = d3.scaleOrdinal(d3.schemeCategory20);
     var centerScale = d3.scalePoint().padding(1).range([0, w]);
-    var forceStrength = 0.1;
+    var forceStrength = 0.2;
     
     var svg = d3.select("#visual").append("svg")
       .attr("width", w)
@@ -32,6 +32,11 @@
       
       var circles = svg.selectAll("circle")
       	.data(data, function(d){ return d.ID ;});
+
+       var tooltip = d3.select("#tooltip")
+         .style("position", "absolute")
+         .style("z-index", "10")
+         .style("visibility", "hidden");
       
       var circlesEnter = circles.enter().append("circle")
       	.attr("r", function(d, i){ return d.r; })
@@ -45,8 +50,22 @@
                 .on("start", dragstarted)
                 .on("drag", dragged)
                 .on("end", dragended)
-              
-                );
+                )
+        .on("mouseover", function(d){
+          text="<center>Ubicación: <br><b>"+d.comuna +", Región de"+d.region+"</b><br>"+
+               "Nombre: <br><b>"+d.nombre +"</b><br>"+
+               "<hr><p><b>ALERTAS</b></p></hr></center>"+
+               "<table>"+
+                  "<tr><th class='text-right'>Res. Sanitaria</th><th><span class='alerta "+d.resolucion+"'>"+d.resolucion +"</span></th></tr>"+
+                  "<tr><th class='text-right'>Colapso</th><th><span class='alerta "+d.colapso+"'>"+d.colapso +"</span></th></tr>"+
+                  "<tr><th class='text-right'>Expansión</th><th><span class='alerta "+d.expansion+"'>"+d.expansion +"</span></th></tr>"+
+                  "<tr><th class='text-right'>Medioambiente</th><th><span class='alerta "+d.medioambiente+"'>"+d.medioambiente +"</span></th></tr>"+
+                "</table>";
+          tooltip.html(text);
+          return tooltip.style("visibility", "visible");})
+        .on("mousemove", function(){return tooltip.style("top",
+            (d3.event.pageY-10)+"px").style("left",(d3.event.pageX+10)+"px");})
+        .on("mouseout", function(){return tooltip.style("visibility", "hidden");});
     
       circles = circles.merge(circlesEnter)
       

@@ -1,4 +1,4 @@
-ID,region,comuna,Nombre,resolucion,sanitarioold,organismo,expansion,sanitario,colapso,medioambiente,alerta-1,alerta-2,alerta-3,alerta-4,Alertas,Zona
+ID,region,comuna,nombre,resolucion,sanitarioold,organismo,expansion,sanitario,colapso,medioambiente,alerta-1,alerta-2,alerta-3,alerta-4,Alertas,Zona
 1,Tarapacá,Iquique,Cementerio Nº 1 de Iquique,No,No,Corporación Municipal de Desarrollo Social ,Sí,No,Sí,No,,Sí,,,2,Norte
 2,Tarapacá,Iquique,Cementerio Nº 3 de Iquique,No informado,No,Corporación Municipal de Desarrollo Social ,Sí,No informado,No,No,Sí,,,,1,Norte
 3,Tarapacá,Camiña,Cementerio Municipal de Camiña,No informado,No,Depto. de Administración,Sí,No informado,No,Sí,,Sí,,,2,Norte

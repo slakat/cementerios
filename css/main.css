@@ -168,7 +168,7 @@ figure.image {
   height: auto;
 }
 figure.image img {
-  box-shadow:4px 5px 25px rgba(0,0,0,0.6);
+  box-shadow:1px 1px 5px rgba(0,0,0,0.2);
   border:15px solid #fff;
   position:relative;
   z-index:100;
@@ -224,4 +224,38 @@ figure.image:hover figcaption {
 .button:hover{
 	background-color: #eee;
 	border-color: #f97171;
+}
+
+#tooltip{
+	padding: 10px;
+	width: 300px;
+	background: rgba(255,255,255,.9);
+}
+
+span.alerta{
+	padding: 5px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 50px;
+}
+
+.alerta.Sí{
+	background: #f97171;
+	color: white;
+}
+
+.alerta.No.informado{
+	background: yellow;
+	color: black;
+}
+
+.alerta.No{
+	background: #66beb2;
+	color: white;
+}
+
+
+th{
+	border: 1px solid #eee;
+	width: 150px;
 }
