@@ -204,7 +204,7 @@ figure.image:hover figcaption {
 }
 
 
-.button{
+.button, .btn-secondary{
 	background: white;
 	padding: 10px;
 	border-radius: 5px;
@@ -216,7 +216,7 @@ figure.image:hover figcaption {
 	border-color: #eee;
 }
 
-.button.active{
+.button.active,.btn-secondary:active{
 	background-color: #f97171;
 	color: white;
 }
@@ -288,7 +288,30 @@ table.drilldown td{
 
 
 #myModal{
-	color: black;
-	background: -webkit-linear-gradient(left, #25c481, #25b7c4);
-  background: linear-gradient(to right, #25c481, #25b7c4);
+  color: #fff;;
+	/*background: -webkit-linear-gradient(left, #25c481, #25b7c4);
+  background: linear-gradient(to right, #25c481, #25b7c4);*/
+  background: -webkit-linear-gradient(left, #66beb2, #f97171);
+  background: linear-gradient(to right, #66beb2, #f97171);
+}
+
+.modal-dialog, .modal-dialog .modal-content{
+	background: rgba(0,0,0,1);
+}
+
+footer{
+	background: black;
+	padding: 10px;
+	color: white;
+}
+
+footer p{
+	line-height: 12px;
+}
+
+.autores{
+	font-size: 12px;
+	color: #eee;
+	margin-left: 15%;
+	margin-bottom: 20px;
 }

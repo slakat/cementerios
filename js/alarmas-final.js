@@ -137,7 +137,6 @@ var mainChart=Highcharts.mapChart('container-map', {
 
 
 function sanitario() {
-    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
@@ -152,7 +151,6 @@ function sanitario() {
 
 
 function colapso() {
-    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
@@ -166,7 +164,6 @@ function colapso() {
     };
 
 function expansion() {
-    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});
@@ -180,7 +177,6 @@ function expansion() {
     };
 
 function ambiente() {
-    console.log(mainChart);
         //$.each(h.series[0].data, function () {
           //  this.value = Math.round(Math.random() * 1000);
         //});

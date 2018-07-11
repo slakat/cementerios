@@ -13,6 +13,9 @@ Highcharts.chart('container-comunas', {
     xAxis: {
         categories: ['Arica y Parinacota','Tarapacá','Antofagasta','Atacama','Coquimbo','Valparaíso','Metropolitana','OHiggins','Maule','Bíobío','Araucanía','De Los Ríos','Los Lagos','Aysén','Magallanes']
     },
+    yAxis:{
+        title:{text: "Cantidad"}
+    },
     credits: {
         enabled: false
     },

@@ -123,7 +123,13 @@
       
       function splitBubbles(byVar) {
         
-        centerScale.domain(data.map(function(d){ return d[byVar]; }));
+        centerScale.domain(data.map(function(d){return d[byVar]; }));
+
+        if(byVar==="Alertas"){
+          centerScale.domain(["0","1","2","3","4"]);
+        }
+
+
         
         if(byVar == "all"){
           hideTitles()
@@ -149,7 +155,7 @@
         // the year texts once and then just hide them.
        	var titles = svg.selectAll('.title')
           .data(scale.domain());
-        
+
         titles.enter().append('text')
           	.attr('class', 'title')
         	.merge(titles)

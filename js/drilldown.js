@@ -216,7 +216,7 @@ var showtable = function(name,region){
     text="<center>Ubicación: <br><b>Región de "+region+"</b><br>"+
                "Nombre: <br><b>"+name+"</b><br>"+
                "<hr><p><b>Cementerios</b></p></hr></center>"+
-               "<table cellpadding='0' cellspacing='0' border='0'>"+
+               "<table cellpadding='0' cellspacing='0' border='0'  class='drilldown'>"+
                   "<thead><tr><th>NOMBRE</th></tr></thead>"+
                   "<tbody>"+
                   c+
