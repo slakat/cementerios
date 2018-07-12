@@ -93,7 +93,8 @@ Highcharts.mapChart('container-drilldown', {
                             this.name = this.properties.NOM_COM;
                             this.county = true;
                             this.region = e.point.name;
-                            this.value = getFilteredData(cementerios, this.properties.NOM_COM, e.point.name).length;
+                            this.reg = e.point.drilldown
+                            this.value = getFilteredData(cementerios, this.properties.NOM_COM, e.point.drilldown).length;
                         });
 
                         // Hide loading and add series
@@ -137,7 +138,8 @@ Highcharts.mapChart('container-drilldown', {
         align: 'right',
         y: 50,
         style: {
-            fontSize: '16px'
+            fontSize: '16px',
+            color: "#fff"
         }
     },
 
@@ -169,7 +171,7 @@ Highcharts.mapChart('container-drilldown', {
             },
             events:{click: function (e) {
                 if (e.point.county){
-                    showtable(e.point.name,e.point.region);
+                    showtable(e.point.name,e.point.region,e.point.reg);
                     $('#myModal').modal('show');
                     }}}
         },
@@ -216,8 +218,8 @@ var tooltable = d3.select("#drill-table")
 
 
 
-var showtable = function(name,region){
-    var d = getFilteredData(cementerios, name, region);
+var showtable = function(name,region,reg){
+    var d = getFilteredData(cementerios, name, reg);
     var c="";
     d.forEach(function(result){
         c=c+"<tr><td class='text-right'>"+result.nombre+"</td><td>"+result.region+"</td></tr>";
@@ -249,5 +251,5 @@ var showtable = function(name,region){
 
 // Get a subset of the data based on the group
 function getFilteredData(data, comuna, region) {
-    return data.filter(function(point) { return (point.comuna === comuna && point.region === region); });
+    return data.filter(function(point) { return (point.comuna === comuna && point.reg === region); });
 }

@@ -1,274 +1,274 @@
-region,comuna,nombre,resolucion,expansion,colapso,medioambiente,Alertas,Zona
-Tarapacá,Iquique,Cementerio Nº 1 de Iquique,Sí,Sí,Sí,Sí,4,Norte
-Tarapacá,Iquique,Cementerio Nº 3 de Iquique,Sí,Sí,No,No,2,Norte
-Tarapacá,Camiña,Cementerio Municipal de Camiña,No informado,Sí,No,Sí,2,Norte
-Tarapacá,Pozo Almonte,Cementerio Municipal Pozo Almonte,No informado,No,Sí,No,1,Norte
-Tarapacá,Pozo Almonte,Cementerio Municipal de La Tirana ,No informado,No,Sí,No,1,Norte
-Tarapacá,Huara,Cementerio General de Huara,No informado,No,No,No,0,Norte
-Tarapacá,Pica,Cementerio Municipal de Matilla,Sí,Sí,Sí,No,3,Norte
-Tarapacá,Pica,Cementerio Municipal de Pica,No informado,No,Sí,No,1,Norte
-Antofagasta,Mejillones,Cementerio Municipal de Mejillones,Sí,No,No,Sí,2,Norte
-Antofagasta,Sierra Gorda,Cementerio Municipal de Sierra Gorda,Sí,Sí,No,Sí,3,Norte
-Antofagasta,Sierra Gorda,Cementerio Municipal Baquedano,Sí,Sí,No,Sí,3,Norte
-Antofagasta,Taltal,Cementerio General de Taltal,Sí,Sí,Sí,Sí,4,Norte
-Antofagasta,Calama,Cementerio Municipal de Calama,Sí,Sí,No,Sí,3,Norte
-Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 2,No,Sí,Sí,Sí,3,Norte
-Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 3,No,Sí,Sí,Sí,3,Norte
-Antofagasta,Antofagasta,Cementerio Municipal de Antofagasta,No,Sí,No,No,1,Norte
-Atacama,Copiapó,Cementerio Municipal de Copiapó,No informado,Sí,Sí,No,2,Norte
-Atacama,Caldera,Cementerio Municipal de Caldera,No informado,No,No,Sí,1,Norte
-Atacama,Tierra Amarilla,Cementerio Municipal de Tierra Amarilla,Sí,No,Sí,Sí,3,Norte
-Atacama,Chañaral,Cementerio Municipal de Chañaral,No informado,Sí,No,No,1,Norte
-Atacama,Diego de Almagro,Cementerio Municipal de Diego de Almagro,Sí,No,Sí,No,2,Norte
-Atacama,Vallenar,Cementerio Municipal de Vallenar,Sí,Sí,Sí,No,3,Norte
-Atacama,Freirina,Cementerio Municipal de Freirina,No informado,Sí,Sí,No,2,Norte
-Atacama,Huasco,Cementerio Municipal de Huasco ,No informado,Sí,Sí,No,2,Norte
-Atacama,Huasco,Cementerio Municipal de Huasco Bajo,No informado,Sí,Sí,Sí,3,Norte
-Coquimbo,Canela,Cementerio Municipal de Canela Alta,Sí,No,No Sabe,No,1,Norte
-Coquimbo,Coquimbo,Cementerio Municipal de Coquimbo,Sí,Sí,Sí,Sí,4,Norte
-Coquimbo,Illapel,Cementerio Municipal de Illapel,No informado,Sí,Sí,No,2,Norte
-Coquimbo,La Higuera,Cementerio Municipal de La Higuera,No informado,No,No,No,0,Norte
-Coquimbo,La Higuera,Cementerio Municipal de Los Choros,No informado,Sí,No,No,1,Norte
-Coquimbo,La Higuera,Cementerio Municipal de Totoralillo Norte ,No informado,No,No,No,0,Norte
-Coquimbo,La Serena,Cementerio Municipal de Compañía Alta,No informado,No,No,Sí,1,Norte
-Coquimbo,La Serena,Cementerio Municipal de La Serena,No informado,Sí,Sí,No,2,Norte
-Coquimbo,Los Vilos,Cementerio Municipal de Los Vilos,Sí,Sí,Sí,No,3,Norte
-Coquimbo,Ovalle,Cementerio Municipal Cerrillos de Tamaya,Sí,Sí,No,Sí,3,Norte
-Coquimbo,Ovalle,Cementerio Municipal de Ovalle,No informado,Sí,Sí,No,2,Norte
-Coquimbo,Paihuano,Cementerio Municipal de Monte Grande,No informado,No,No Sabe,No,0,Norte
-Coquimbo,Paihuano,Cementerio Municiapal de Paihuano,No informado,No,No Sabe,Sí,1,Norte
-Coquimbo,Paihuano,Cementerio Municipal de Pisco Elqui,No informado,No,No Sabe,No,0,Norte
-Coquimbo,Río Hurtado,Cementerio Municiapal de El Chañar,Sí,No,No,Sí,2,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de Hurtado,Sí,No,No,Sí,2,Norte
-Coquimbo,Río Hurtado,Cementerio Municiapal de Las Breas,Sí,No,No,Sí,2,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de Samo Alto,Sí,No,No,Sí,2,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro (San Pedro Sur),Sí,No,Sí,Sí,3,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro de Pichasca,Sí,No,Sí,Sí,3,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de Serón,Sí,No,No,Sí,2,Norte
-Coquimbo,Río Hurtado,Cementerio Municipal de Tahuinco,No informado,No,No,Sí,1,Norte
-Coquimbo,Salamanca,Cementerio Municipal de Salamanca,No informado,No,Sí,No,1,Norte
-Coquimbo,Vicuña,Cementerio Municiapal de Varillar ,No informado,No,Sí,No,1,Norte
-Coquimbo,Vicuña,Cementerio Municipal de El Tambo ,No informado,No,No,No,0,Norte
-Coquimbo,Vicuña,Cementerio Municipal de Vicuña,No informado,Sí,Sí,No,2,Norte
-Coquimbo,Vicuña,Cementerio Municipal de San Isidro,No informado,No,Sí,No,1,Norte
-Coquimbo,Vicuña,Cementerio Municipal de Villaseca,No informado,No,No,No,0,Norte
-Valparaíso,Valparaíso,Cementerio Municipal Nº 1,Sí,No,Sí,Sí,3,Centro
-Valparaíso,Valparaíso,Cementerio Municipal Nº 2,Sí,Sí,Sí,No,3,Centro
-Valparaíso,Valparaíso,Playa Ancha Cementerio Municipal Nº 3,Sí,Sí,No,No,2,Centro
-Valparaíso,La Calera,Cementerio Municipal de La Calera,No,Sí,Sí,No,2,Centro
-Valparaíso,Llay Llay,Cementerio Municipal de Llay Llay,Sí,No,No,Sí,2,Centro
-Valparaíso,Panquehue,Cementerio Municipal de Panquehue,Sí,Sí,Sí,Sí,4,Centro
-Valparaíso,La Ligua,Cementerio Municipal de La Ligua,No,No,Sí,No,1,Centro
-Valparaíso,Casablanca,Cementerio Municipal de Casablanca,Sí,Sí,Sí,No,3,Centro
-Valparaíso,Puchuncaví,Cementerio Municipal de Puchuncaví,Sí,No,Sí,No,2,Centro
-Valparaíso,Isla de Pascua,Cementerio Municipal de Isla de Pascua,Sí,Sí,Sí,Sí,4,Centro
-Valparaíso,Olmué ,Cementerio Municipal de Olmué ,Sí,No,Sí,No,2,Centro
-Valparaíso,Quillota,Cementerio Municipal de Quillota,No,Sí,No,No,1,Centro
-Valparaíso,Viña deL MAR,Cementerio Municipal de Santa Inés,Sí,No,No,No,1,Centro
-Valparaíso,Quintero,Cementerio Municipal de Quinteros,Sí,No,Sí,No,2,Centro
-Valparaíso,San Felipe,Cementerio Municipal de San Felipe,No,No,Sí,No,1,Centro
-Valparaíso,Cabildo,Cementerio Municipal de Cabildo,No,No,No,No Sabe,0,Centro
-Valparaíso,Petorca,Cementerio Municipal de Chincolco,Sí,No,No,No,1,Centro
-Valparaíso,Petorca,Cementerio Municipal de Hierro Viejo,Sí,Sí,Sí,No,3,Centro
-Valparaíso,Petorca,Cementerio Municipal de Petorca ,Sí,No,No,No,1,Centro
-O'Higgins,Doñihue,Cementerio Municipal de Doñihue,Sí,No,Sí,Sí,3,Centro
-O'Higgins,Mostazal,CEMENTERIO MUNICIPAL MOSTAZAL,Sí,Sí,Sí,No,3,Centro
-O'Higgins,Rancagua,CEMENTERIO N1 MUNICIPAL RANCAGUA,Sí,Sí,Sí,No,3,Centro
-O'Higgins,Rancagua,CEMENTERIO N2 MUNICIPAL RANCAGUA,Sí,No,No,No,1,Centro
-O'Higgins,Rengo,MUNICIPALIDAD DE RENGO,Sí,Sí,Sí,No Sabe,3,Centro
-O'Higgins,San Fernando,CEMENTERIO SAN FERNANDO,Sí,No,Sí,Sí,3,Centro
-O'Higgins,Nancagua,CEMENTERIO MUNICIPAL NANCAGUA,Sí,No,Sí,No,2,Centro
-O'Higgins,La Estrella,CEMENTERIO MUNICIPAL,Sí,Sí,Sí,Sí,4,Centro
-O'Higgins,Navidad,CEMENTERIO MUNICIPAL,Sí,Sí,Sí,Sí,4,Centro
-Maule,Cauquenes,C. Municipal,Sí,No,Sí,Sí,3,Centro
-Maule,Cauquenes,C. Coronel,Sí,No,Sí,Sí,3,Centro
-Maule,Curicó,Municipalidad Curicó,No informado,,,,0,Centro
-Maule,Hualañe,Municipalidad Hualañe,No informado,No,Sí,No,1,Centro
-Maule,Talca,Municipalidad Talca,Sí,No,No,No,1,Centro
-Maule,Constitución,Municipalidad Constitución,No informado,Sí,Sí,No,2,Centro
-Maule,Río Claro,Municipalidad Rio Claro,No informado,,,,0,Centro
-Maule,Villalegre,Municipal,No informado,,,,0,Centro
-Bíobío,Los Angeles,Municipal de Los Angeles,Sí,Sí,Sí,No,3,Centro
-Bíobío,Los Angeles,Municipal de Santa Fe,No informado,No,No,No,0,Centro
-Bíobío,Los Angeles,Municipal de Millantú,No informado,No,No,No,0,Centro
-Bíobío,Mulchen,Municipalidad de Mulchen,Sí,Sí,No Sabe,Sí,3,Centro
-Bíobío,Santa Barbara,Municipal Sta. Bárbara,Sí,Sí,No,No,2,Centro
-Bíobío,Quilaco,Municipal Quilaco,Sí,No,No,No,1,Centro
-Bíobío,Nacimiento,Municipal Nacimiento,Sí,Sí,Sí,No,3,Centro
-Bíobío,Nacimiento,Cementerio de Taboleo,No informado,No,No,No,0,Centro
-Bíobío,Nacimiento,Cementerio de los Pantanos,No informado,No,No,No,0,Centro
-Bíobío,Nacimiento,Cementerio de Millapoa,No informado,No,No,No,0,Centro
-Bíobío,Laja,Muncipal El Desague ,No informado,No,No,No Sabe,0,Centro
-Bíobío,Laja,Municipal Urbano del Laja ,Sí,Sí,No Sabe,No Sabe,2,Centro
-Bíobío,Laja,Municipal Cruz de Piedra,No informado,No,No Sabe,No Sabe,0,Centro
-Bíobío,Tucapel,Polcura(Municipal),Sí,No,No,No,1,Centro
-Bíobío,Tucapel,Trupan(Municipal),Sí,No,No,No,1,Centro
-Bíobío,Tucapel,Huépil(Municipal),Sí,No,Sí,No,2,Centro
-Bíobío,Tucapel,Tucapel (Municipal),Sí,No,No,No,1,Centro
-Bíobío,Quilleco,Municpal Quilleco,Sí,No,No,Sí,2,Centro
-Bíobío,Negrete,Muncipal Negrete,No,Sí,No,No,1,Centro
-Bíobío,Yumbel,Río Claro,Sí,No,Sí,No,2,Centro
-Bíobío,Yumbel,Rere,No informado,,,,0,Centro
-Bíobío,Cabrero,Muncipalidad Cabrero,Sí,No,Sí,No,2,Centro
-Bíobío,Concepción,Cementerio General,Sí,No,No,No,1,Centro
-Bíobío,San Pedro de la Paz,Cementerio Municipal,Sí,Sí,No,No,2,Centro
-Bíobío,Chiguayante,Cementerio Municipal,No,No,No,No,0,Centro
-Bíobío,Coronel,Cementerio Municipal,No,Sí,Sí,No,2,Centro
-Bíobío,Lota,Cementerio Municipal,Sí,,,,1,Centro
-Bíobío,Hualqui,Cementerio Municipal,Sí,No,No,No,1,Centro
-Bíobío,Santa Juana,Cementerio Municipal,Sí,Sí,Sí,Sí,4,Centro
-Bíobío,Santa Juana,Las Corrientes,Sí,No,Sí,Sí,3,Centro
-Bíobío,Talcahuano,Cementerio Municipal N° 2,Sí,Sí,No,No,2,Centro
-Bíobío,Talcahuano,Cementerio Municipal N° 1,Sí,Sí,Sí,No,3,Centro
-Bíobío,TOME,Municipal Nº 1,Sí,Sí,Sí,No,3,Centro
-Bíobío,TOME,Municipal Nº 2,Sí,Sí,No,No,2,Centro
-Bíobío,TOME,Municipal Dichato,Sí,Sí,Sí,No,3,Centro
-Bíobío,TOME,Municipal Rafael,Sí,Sí,Sí,No,3,Centro
-Bíobío,Chillán,Municipal de Chillán,Sí,No,Sí,Sí,3,Centro
-Bíobío,Chillán,Municipal Quinchamali,Sí,No,Sí,No,2,Centro
-Bíobío,San Carlos,Municipal San Carlos,Sí,No,Sí,No,2,Centro
-Bíobío,San Carlos,Municipal Cachapoal,Sí,No,Sí,No,2,Centro
-Bíobío,Bulnes,Municipal Santa Clara,Sí,No,No,No,1,Centro
-Bíobío,Bulnes,Municipal Bulnes,Sí,No,No,Sí,2,Centro
-Bíobío,Coelemu,Municipal Urbano Coelemu,Sí,Sí,Sí,No,3,Centro
-Bíobío,Coelemu,Municipal de Huarilihue,Sí,No,Sí,No,2,Centro
-Bíobío,Quillón,Municipal Quillón,Sí,Sí,Sí,No,3,Centro
-Bíobío,Quillón,Municipal Cerro Negro,Sí,No,No,No,1,Centro
-Bíobío,San Nicolás,Municipal,Sí,No,No,Sí,2,Centro
-Bíobío,Ñiquén,Municipal,Sí,,,,1,Centro
-Bíobío,Ránquil,Municipal *en ampliación*,Sí,,,,1,Centro
-Bíobío,Trehuaco,Municipal,Sí,,,,1,Centro
-Bíobío,Yungay,Municipal de Yungay,Sí,Sí,Sí,No,3,Centro
-Bíobío,Yungay,Municipal de Campanario,Sí,Sí,No,No,2,Centro
-Bíobío,Yungay,Municipal Pangal del Laja ,Sí,Sí,No,No,2,Centro
-Bíobío,Yungay,Municipal San Miguel de Itata,Sí,Sí,Sí,Sí,4,Centro
-Bíobío,Lebu,Municipal de Lebu,Sí,No,No,No,1,Centro
-Bíobío,Los Alamos,Cementerio Municipal de Los Álamos,Sí,Sí,Sí,No,3,Centro
-Bíobío,Cañete,Cementerio Municipal de Cañete,Sí,Sí,Sí,No,3,Centro
-Bíobío,Contulmo,Municipal de Contulmo,Sí,No,Sí,Sí,3,Centro
-Bíobío,Tirúa,Municipal de Tirúa,Sí,,,,1,Centro
-Bíobío,Tirúa,Quidico,Sí,,,,1,Centro
-Bíobío,Curanilahue,Municipal de Curanilahue,Sí,No,Sí,No,2,Centro
-Bíobío,Arauco,Municipal de Arauco,Sí,Sí,Sí,No,3,Centro
-Araucanía,Traiguén,Municipal de Traiguén,Sí,No,Sí,No,2,Sur
-Araucanía,Lumaco,Municipal de Lumaco,Sí,No,Sí,No,2,Sur
-Araucanía,Lumaco,Municipal de Cap. Pastene,Sí,No,Sí,Sí,3,Sur
-Araucanía,LONQUIMAY,CEMENTERIO MUNICIPAL,Sí,No,No,No,1,Sur
-Araucanía,Lautaro,Municipal Lautaro,No,No,Sí,No,1,Sur
-Araucanía,Lautaro,Municipal Pillanlelbun,No,Sí,Sí,No,2,Sur
-Araucanía,Perquenco,Municipal de Perquenco,Sí,No,No,No,1,Sur
-Araucanía,Galvarino,Municipal de Galvarino,Sí,No,Sí,No,2,Sur
-Araucanía,Curacautin,Cementerio Curacautin,Sí,Sí,Sí,No,3,Sur
-Araucanía,Temuco,Cementerio General Municipal,Sí,Sí,Sí,No,3,Sur
-Araucanía,Temuco,Parque Cementerio Municipal,No,No,No,No,0,Sur
-Araucanía,Cunco,Cementerio Municipal Cunco,Sí,Sí,Sí,No,3,Sur
-Araucanía,Cunco,Cementerio Municipal Las Hortensias,Sí,No,Sí,Sí,3,Sur
-Araucanía,Cunco,Cementerio Municipal Los Laureles,Sí,Sí,Sí,No,3,Sur
-Araucanía,Melipeuco,Cementerio Municipal,Sí,Sí,No,No,2,Sur
-Araucanía,Padre Las Casas,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
-Araucanía,Vilcún,Cementerio Municipal de Vilcún,Sí,Sí,Sí,No,3,Sur
-Araucanía,Vilcún,Cementerio Municipal de San Patricio,Sí,Sí,Sí,No,3,Sur
-Araucanía,Vilcún,Cementerio Municipal de Cherquenco,Sí,Sí,Sí,No,3,Sur
-Araucanía,Renaico,Municipal de Renaico,Sí,Sí,Sí,No,3,Sur
-Araucanía,Puren,Municipal de Puren,Sí,Sí,No,No,2,Sur
-Araucanía,Angol,Municipal de Angol,Sí,No,No,No,1,Sur
-Araucanía,Los Sauces,Municipal de Los Sauces,Sí,Sí,Sí,Sí,4,Sur
-Araucanía,Loncoche,Cementerio Municipal de Loncoche,Sí,Sí,Sí,Sí,4,Sur
-Araucanía,Loncoche,Cementerio Municipal de Huiscapi,Sí,No,No,Sí,2,Sur
-Araucanía,CHOL-CHOL,MUNICIPAL DE CHOL-CHOL,Sí,Sí,Sí,No,3,Sur
-Araucanía,CARAHUE,MUNICIPAL DE CARAHUE,No,Sí,Sí,No,2,Sur
-Araucanía,SAAVEDRA,MUNICIPAL DE PTO DOMINGUEZ,Sí,Sí,Sí,No,3,Sur
-Araucanía,SAAVEDRA,MUNICIPAL DE SAAVEDRA,Sí,Sí,Sí,No,3,Sur
-Araucanía,NVA. IMPERIAL,MUNICIPAL DE NUEVA IMPERIAL,Sí,No,Sí,Sí,3,Sur
-Araucanía,Collipulli,Cementerio Municipal,Sí,No,No,No,1,Sur
-Araucanía,Collipulli,Cementerio Municipal Cato de Santa Julia,Sí,No,No,No,1,Sur
-Araucanía,Victoria,Cementerio Municipal Victoria,No,Sí,Sí,No,2,Sur
-Araucanía,ERCILLA,Municipal Ercilla,Sí,Sí,Sí,Sí,4,Sur
-Araucanía,ERCILLA,Municipal Pailahueque,Sí,No,No,No,1,Sur
-Araucanía,Pitrufquen,CEMENTERIO DE PITRUFQUEN,Sí,Sí,Sí,No,3,Sur
-Araucanía,Gorbea,CEMENTERIO DE GORBEA,Sí,No,Sí,No,2,Sur
-Araucanía,Freire,CEMENTERIO DE FREIRE,Sí,No,Sí,No,2,Sur
-Araucanía,Gorbea,CEMENTERIO DE QUITRATUE,Sí,Sí,Sí,No,3,Sur
-Araucanía,Gorbea,CEMENTERIO LASTARRIAS,Sí,Sí,No,No,2,Sur
-Araucanía,T. Schmidt,CEMENTERIO BARROS ARANA,Sí,Sí,No,No,2,Sur
-Araucanía,T. Schmidt,CEMENTERIO TEODORO SCHMIDT,Sí,Sí,Sí,No,3,Sur
-Araucanía,Toltén,CEMENTERIO DE TOLTEN,Sí,No,No,No,1,Sur
-Araucanía,Freire,CEMENTERIO QUEPE,Sí,No,Sí,Sí,3,Sur
-Araucanía,Pitrufquen,CEMENTERIO EN COMUY,Sí,Sí,Sí,No,3,Sur
-Araucanía,Pitrufquen,Cementerio de Caicoma,Sí,No,Sí,No,2,Sur
-Araucanía,Villarrica,Cementerio Municipal Villarrica,Sí,Sí,No,No,2,Sur
-Los Lagos,Purranque,Municipal Purranque,No,Sí,Sí,No,2,Sur
-Los Lagos,Purranque,Municipal Crucero,No,Sí,Sí,No,2,Sur
-Los Lagos,Purranque,Municipal Corte Alto,No,Sí,Sí,No,2,Sur
-Los Lagos,Purranque,Municpal Huellusca,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Río Negro,Municipal Río Negro,Sí,Sí,Sí,Sí,4,Sur
-Los Lagos,Río Negro,Municipal de Chapaco,No,Sí,No,No,1,Sur
-Los Lagos,San Pablo,Municipal San Pablo,No,No Sabe,No,No,0,Sur
-Los Lagos,Muermos,Municipal de Los Muermos,No,No,No,Sí,1,Sur
-Los Lagos,Quinchao,Municipal de Quinchao,No,Sí,Sí,No,2,Sur
-Los Lagos,Osorno,Cementerio Municipal de Osorno,No informado,Sí,Sí,Sí,3,Sur
-Los Lagos,Quellón,Cementerio Municipal de Quellón,Sí,No,Sí,No Sabe,2,Sur
-Los Lagos,Puyehue,Cementerio Municipal Puyehue,No informado,Sí,Sí,No,2,Sur
-Los Lagos,Puyehue,Cementerio Municipal de Entre Lagos,No informado,Sí,No,No,1,Sur
-Los Lagos,Chaitén,Cementerio Municipal de Chaitén,No informado,Sí,Sí,Sí,3,Sur
-Los Lagos,Futaleufú,Cementerio Municipal de Futaleufú,No informado,No,Sí,No,1,Sur
-Los Lagos,Hualaihué,Cementerio Municipal de Hualaihué,No informado,No,Sí,No,1,Sur
-Los Lagos,Palena,Cementerio Municipal de Palena,No informado,Sí,No,No,1,Sur
-Los Lagos,Calbuco,Cementerio Municipal de Calbuco,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Calbuco,*en proceso*,No informado,No,No,No,0,Sur
-Los Lagos,Cochamó,Cementerio Municipal de Cochamó,No informado,No,No,No,0,Sur
-Los Lagos,Frutillar,Cementerio Municipal de Frutillar,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Frutillar,Cementerio Municipal de Pantanosa,Sí,Sí,Sí,Sí,4,Sur
-Los Lagos,Frutillar,Cementerio Municiapal de Casma,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Maullín,Cementerio Municipal de Maullín,Sí,No Sabe,No Sabe,No Sabe,1,Sur
-Los Lagos,Puerto Montt,Cementerio General de Puerto Montt,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Puerto Montt,Cementerio General de Chin Chin,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Puerto Montt,Cementerio Alerce Histórico,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Puerto Varas,Cementerio Parque Las Rosas,No,No Sabe,No Sabe,No Sabe,0,Sur
-Los Lagos,Fresia,Cementerio Municipal de Fresia,Sí,Sí,Sí,No,3,Sur
-Los Lagos,Castro,Cementerio Municipal de Castro,Sí,Sí,Sí,Sí,4,Sur
-Los Lagos,Ancud,Cementerio Municipal de Ancud,Sí,Sí,Sí,Sí,4,Sur
-Aysén,AYSÉN,PUERTO AYSÉN,No,No,No,No,0,Austral
-Aysén,COYHAIQUE,Municipal de Cuatro Vientos,No,No,No,No Sabe,0,Austral
-Aysén,COYHAIQUE,Cementerio Municipal de Coyhaique,Sí,Sí,Sí,No Sabe,3,Austral
-Aysén,Cisnes,Cementerio Municipal de Cisnes,Sí,No,Sí,No,2,Austral
-Aysén,Cisnes,Cementerio Municipal de Puyuhuapi,Sí,No,No,No,1,Austral
-Aysén,Cisnes,Cementerio Municipal de La Junta,Sí,No,No,No,1,Austral
-Aysén,Cisnes,Cementerio Municipal de Marín,Sí,No,No,No,1,Austral
-Aysén,Cochrane,Cementerio Municipal de Cochrane,Sí,Sí,No,No,2,Austral
-Aysén,Villa O'Higgins,Cementerio Municipal de Villa O´Higgins,Sí,No,No,No,1,Austral
-Aysén,Caleta Tortel,Cementerio Municipal de Caleta Tortel,Sí,Sí,No,Sí,3,Austral
-Aysén,Chile chico,Cementerio Municipal de Chile Chico,Sí,Sí,No,No,2,Austral
-Aysén,Río Ibañez,Cementerio Municipal de Río Ibañez,Sí,Sí,No,No,2,Austral
-Magallanes,PUNTA ARENAS,CEMENTERIO MUNICIPAL SARA BRAUN,No,Sí,Sí,Sí,3,Austral
-Magallanes,CABO DE HORNOS,CEMENTERIO MUNICIPAL PUERTO WILLIAMS,No,No,Sí,No,1,Austral
-Magallanes,PORVENIR,CEMENTERIO MUNICIPAL DE PORVENIR,No,No,No,No,0,Austral
-Magallanes,Natales,Cementerio Padre Maria Rosa,No,Sí,No,Sí,2,Austral
-Magallanes,Natales,Cementerio Padre Hurtado,No,Sí,Sí,No,2,Austral
-Magallanes,Natales,CEMENTERIO PUERTO EDEN,No,,,,0,Austral
-Magallanes,LAGUNA BLANCA,CEMENTERIO VILLA TEHUELCHES,No,Sí,No,No,1,Austral
-Magallanes,Torres del Paine,Cementerio Cerro Castillo,No informado,No,No,No,0,Austral
-Metropolitana,EL MONTE,CEMENTERIO DE EL MONTE,No,No,Sí,No,1,Centro
-Metropolitana,PIRQUE,CEMENTERIO MUNICIPAL DE PIRQUE,No,No,No,No,0,Centro
-Metropolitana,Recoleta,Cementerio General,Sí,Sí,No,No,2,Centro
-Metropolitana,Curacaví,Cementerio Municipal de Curacaví,Sí,Sí,No,No,2,Centro
-Metropolitana,Melipilla,Cementerio Comunal de Melipilla,Sí,No,Sí,Sí,3,Centro
-Metropolitana,Colina,Cementerio Municipal de Colina,Sí,No,No,No,1,Centro
-Metropolitana,Pudahuel,Cementerio Municipal de Pudahuel,Sí,Sí,No,No,2,Centro
-De Los Ríos,Panguipulli,Coñaripe,No,,,,0,Sur
-De Los Ríos,Valdivia,Cementerio Municipal 1,Sí,Sí,Sí,No,3,Sur
-De Los Ríos,Valdivia,Cementerio Municipal 2,No,No,No,No,0,Sur
-De Los Ríos,Mariquina,Cementerio Municipal,No,Sí,No,No,1,Sur
-De Los Ríos,Futrono,Cementerio Las Quemas Futrono,No,No,No,No,0,Sur
-De Los Ríos,Futrono,Cementerio O´Higgns,Sí,Sí,Sí,No,3,Sur
-De Los Ríos,Lanco,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
-De Los Ríos,Los Lagos,Cementerio Municipal,Sí,No,No,No,1,Sur
-De Los Ríos,Paillaco,Cementerio Municipal de Paillaco,Sí,No,Sí,Sí,3,Sur
-De Los Ríos,Paillaco,Cementerio Municipal de Reumén,Sí,Sí,No,No,2,Sur
-De Los Ríos,Paillaco,Cementerio Municipal de Pichirropulli,Sí,Sí,No,Sí,3,Sur
-De Los Ríos,Ranco,Cementerio Municipal de Ranco,Sí,Sí,No,No,2,Sur
-De Los Ríos,Máfil,Cementerio Municipal de Máfil,Sí,Sí,Sí,No,3,Sur
-De Los Ríos,Río Bueno,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
-De Los Ríos,Corral,Cementerio Municipal de Corral,Sí,Sí,Sí,Sí,4,Sur
-Arica y Parinacota,Arica,Municipal de Arica,No,No,Sí,No,1,Norte
-Arica y Parinacota,Arica,San Miguel de Azapa,No,Sí,Sí,No,2,Norte
+reg,region,comuna,nombre,resolucion,expansion,colapso,medioambiente,Alertas,Zona
+cl-ta,Tarapacá,Iquique,Cementerio Nº 1 de Iquique,Sí,Sí,Sí,Sí,4,Norte
+cl-ta,Tarapacá,Iquique,Cementerio Nº 3 de Iquique,Sí,Sí,No,No,2,Norte
+cl-ta,Tarapacá,Camiña,Cementerio Municipal de Camiña,No informado,Sí,No,Sí,2,Norte
+cl-ta,Tarapacá,Pozo Almonte,Cementerio Municipal Pozo Almonte,No informado,No,Sí,No,1,Norte
+cl-ta,Tarapacá,Pozo Almonte,Cementerio Municipal de La Tirana,No informado,No,Sí,No,1,Norte
+cl-ta,Tarapacá,Huara,Cementerio General de Huara,No informado,No,No,No,0,Norte
+cl-ta,Tarapacá,Pica,Cementerio Municipal de Matilla,Sí,Sí,Sí,No,3,Norte
+cl-ta,Tarapacá,Pica,Cementerio Municipal de Pica,No informado,No,Sí,No,1,Norte
+cl-an,Antofagasta,Mejillones,Cementerio Municipal de Mejillones,Sí,No,No,Sí,2,Norte
+cl-an,Antofagasta,Sierra Gorda,Cementerio Municipal de Sierra Gorda,Sí,Sí,No,Sí,3,Norte
+cl-an,Antofagasta,Sierra Gorda,Cementerio Municipal Baquedano,Sí,Sí,No,Sí,3,Norte
+cl-an,Antofagasta,Taltal,Cementerio General de Taltal,Sí,Sí,Sí,Sí,4,Norte
+cl-an,Antofagasta,Calama,Cementerio Municipal de Calama,Sí,Sí,No,Sí,3,Norte
+cl-an,Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 2,No,Sí,Sí,Sí,3,Norte
+cl-an,Antofagasta,Tocopilla,Cementerio Municipal de Tocopilla 3,No,Sí,Sí,Sí,3,Norte
+cl-an,Antofagasta,Antofagasta,Cementerio Municipal de Antofagasta,No,Sí,No,No,1,Norte
+cl-at,Atacama,Copiapó,Cementerio Municipal de Copiapó,No informado,Sí,Sí,No,2,Norte
+cl-at,Atacama,Caldera,Cementerio Municipal de Caldera,No informado,No,No,Sí,1,Norte
+cl-at,Atacama,Tierra Amarilla,Cementerio Municipal de Tierra Amarilla,Sí,No,Sí,Sí,3,Norte
+cl-at,Atacama,Chañaral,Cementerio Municipal de Chañaral,No informado,Sí,No,No,1,Norte
+cl-at,Atacama,Diego de Almagro,Cementerio Municipal de Diego de Almagro,Sí,No,Sí,No,2,Norte
+cl-at,Atacama,Vallenar,Cementerio Municipal de Vallenar,Sí,Sí,Sí,No,3,Norte
+cl-at,Atacama,Freirina,Cementerio Municipal de Freirina,No informado,Sí,Sí,No,2,Norte
+cl-at,Atacama,Huasco,Cementerio Municipal de Huasco,No informado,Sí,Sí,No,2,Norte
+cl-at,Atacama,Huasco,Cementerio Municipal de Huasco Bajo,No informado,Sí,Sí,Sí,3,Norte
+cl-co,Coquimbo,Canela,Cementerio Municipal de Canela Alta,Sí,No,No Sabe,No,1,Norte
+cl-co,Coquimbo,Coquimbo,Cementerio Municipal de Coquimbo,Sí,Sí,Sí,Sí,4,Norte
+cl-co,Coquimbo,Illapel,Cementerio Municipal de Illapel,No informado,Sí,Sí,No,2,Norte
+cl-co,Coquimbo,La Higuera,Cementerio Municipal de La Higuera,No informado,No,No,No,0,Norte
+cl-co,Coquimbo,La Higuera,Cementerio Municipal de Los Choros,No informado,Sí,No,No,1,Norte
+cl-co,Coquimbo,La Higuera,Cementerio Municipal de Totoralillo Norte,No informado,No,No,No,0,Norte
+cl-co,Coquimbo,La Serena,Cementerio Municipal de Compañía Alta,No informado,No,No,Sí,1,Norte
+cl-co,Coquimbo,La Serena,Cementerio Municipal de La Serena,No informado,Sí,Sí,No,2,Norte
+cl-co,Coquimbo,Los Vilos,Cementerio Municipal de Los Vilos,Sí,Sí,Sí,No,3,Norte
+cl-co,Coquimbo,Ovalle,Cementerio Municipal Cerrillos de Tamaya,Sí,Sí,No,Sí,3,Norte
+cl-co,Coquimbo,Ovalle,Cementerio Municipal de Ovalle,No informado,Sí,Sí,No,2,Norte
+cl-co,Coquimbo,Paihuano,Cementerio Municipal de Monte Grande,No informado,No,No Sabe,No,0,Norte
+cl-co,Coquimbo,Paihuano,Cementerio Municiapal de Paihuano,No informado,No,No Sabe,Sí,1,Norte
+cl-co,Coquimbo,Paihuano,Cementerio Municipal de Pisco Elqui,No informado,No,No Sabe,No,0,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municiapal de El Chañar,Sí,No,No,Sí,2,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de Hurtado,Sí,No,No,Sí,2,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municiapal de Las Breas,Sí,No,No,Sí,2,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de Samo Alto,Sí,No,No,Sí,2,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro (San Pedro Sur),Sí,No,Sí,Sí,3,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de San Pedro de Pichasca,Sí,No,Sí,Sí,3,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de Serón,Sí,No,No,Sí,2,Norte
+cl-co,Coquimbo,Río Hurtado,Cementerio Municipal de Tahuinco,No informado,No,No,Sí,1,Norte
+cl-co,Coquimbo,Salamanca,Cementerio Municipal de Salamanca,No informado,No,Sí,No,1,Norte
+cl-co,Coquimbo,Vicuña,Cementerio Municiapal de Varillar,No informado,No,Sí,No,1,Norte
+cl-co,Coquimbo,Vicuña,Cementerio Municipal de El Tambo,No informado,No,No,No,0,Norte
+cl-co,Coquimbo,Vicuña,Cementerio Municipal de Vicuña,No informado,Sí,Sí,No,2,Norte
+cl-co,Coquimbo,Vicuña,Cementerio Municipal de San Isidro,No informado,No,Sí,No,1,Norte
+cl-co,Coquimbo,Vicuña,Cementerio Municipal de Villaseca,No informado,No,No,No,0,Norte
+cl-vs,Valparaíso,Valparaíso,Cementerio Municipal Nº 1,Sí,No,Sí,Sí,3,Centro
+cl-vs,Valparaíso,Valparaíso,Cementerio Municipal Nº 2,Sí,Sí,Sí,No,3,Centro
+cl-vs,Valparaíso,Valparaíso,Playa Ancha Cementerio Municipal Nº 3,Sí,Sí,No,No,2,Centro
+cl-vs,Valparaíso,Calera,Cementerio Municipal de La Calera,No,Sí,Sí,No,2,Centro
+cl-vs,Valparaíso,Llaillay,Cementerio Municipal de Llay Llay,Sí,No,No,Sí,2,Centro
+cl-vs,Valparaíso,Panquehue,Cementerio Municipal de Panquehue,Sí,Sí,Sí,Sí,4,Centro
+cl-vs,Valparaíso,La Ligua,Cementerio Municipal de La Ligua,No,No,Sí,No,1,Centro
+cl-vs,Valparaíso,Casablanca,Cementerio Municipal de Casablanca,Sí,Sí,Sí,No,3,Centro
+cl-vs,Valparaíso,Puchuncaví,Cementerio Municipal de Puchuncaví,Sí,No,Sí,No,2,Centro
+cl-vs,Valparaíso,Isla de Pascua,Cementerio Municipal de Isla de Pascua,Sí,Sí,Sí,Sí,4,Centro
+cl-vs,Valparaíso,Olmué,Cementerio Municipal de Olmué,Sí,No,Sí,No,2,Centro
+cl-vs,Valparaíso,Quillota,Cementerio Municipal de Quillota,No,Sí,No,No,1,Centro
+cl-vs,Valparaíso,Viña deL Mar,Cementerio Municipal de Santa Inés,Sí,No,No,No,1,Centro
+cl-vs,Valparaíso,Quintero,Cementerio Municipal de Quinteros,Sí,No,Sí,No,2,Centro
+cl-vs,Valparaíso,San Felipe,Cementerio Municipal de San Felipe,No,No,Sí,No,1,Centro
+cl-vs,Valparaíso,Cabildo,Cementerio Municipal de Cabildo,No,No,No,No Sabe,0,Centro
+cl-vs,Valparaíso,Petorca,Cementerio Municipal de Chincolco,Sí,No,No,No,1,Centro
+cl-vs,Valparaíso,Petorca,Cementerio Municipal de Hierro Viejo,Sí,Sí,Sí,No,3,Centro
+cl-vs,Valparaíso,Petorca,Cementerio Municipal de Petorca,Sí,No,No,No,1,Centro
+cl-li,O'Higgins,Doñihue,Cementerio Municipal de Doñihue,Sí,No,Sí,Sí,3,Centro
+cl-li,O'Higgins,Mostazal,CEMENTERIO MUNICIPAL MOSTAZAL,Sí,Sí,Sí,No,3,Centro
+cl-li,O'Higgins,Rancagua,CEMENTERIO N1 MUNICIPAL RANCAGUA,Sí,Sí,Sí,No,3,Centro
+cl-li,O'Higgins,Rancagua,CEMENTERIO N2 MUNICIPAL RANCAGUA,Sí,No,No,No,1,Centro
+cl-li,O'Higgins,Rengo,MUNICIPALIDAD DE RENGO,Sí,Sí,Sí,No Sabe,3,Centro
+cl-li,O'Higgins,San Fernando,CEMENTERIO SAN FERNANDO,Sí,No,Sí,Sí,3,Centro
+cl-li,O'Higgins,Nancagua,CEMENTERIO MUNICIPAL NANCAGUA,Sí,No,Sí,No,2,Centro
+cl-li,O'Higgins,La Estrella,CEMENTERIO MUNICIPAL,Sí,Sí,Sí,Sí,4,Centro
+cl-li,O'Higgins,Navidad,CEMENTERIO MUNICIPAL,Sí,Sí,Sí,Sí,4,Centro
+cl-ml,Maule,Cauquenes,C. Municipal,Sí,No,Sí,Sí,3,Centro
+cl-ml,Maule,Cauquenes,C. Coronel,Sí,No,Sí,Sí,3,Centro
+cl-ml,Maule,Curicó,Municipalidad Curicó,No informado,,,,0,Centro
+cl-ml,Maule,Hualañe,Municipalidad Hualañe,No informado,No,Sí,No,1,Centro
+cl-ml,Maule,Talca,Municipalidad Talca,Sí,No,No,No,1,Centro
+cl-ml,Maule,Constitución,Municipalidad Constitución,No informado,Sí,Sí,No,2,Centro
+cl-ml,Maule,Río Claro,Municipalidad Rio Claro,No informado,,,,0,Centro
+cl-ml,Maule,Villa Alegre,Municipal,No informado,,,,0,Centro
+cl-bi,Bíobío,Los Angeles,Municipal de Los Angeles,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Los Angeles,Municipal de Santa Fe,No informado,No,No,No,0,Centro
+cl-bi,Bíobío,Los Angeles,Municipal de Millantú,No informado,No,No,No,0,Centro
+cl-bi,Bíobío,Mulchén,Municipalidad de Mulchen,Sí,Sí,No Sabe,Sí,3,Centro
+cl-bi,Bíobío,Santa Bárbara,Municipal Sta. Bárbara,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Quilaco,Municipal Quilaco,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Nacimiento,Municipal Nacimiento,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Nacimiento,Cementerio de Taboleo,No informado,No,No,No,0,Centro
+cl-bi,Bíobío,Nacimiento,Cementerio de los Pantanos,No informado,No,No,No,0,Centro
+cl-bi,Bíobío,Nacimiento,Cementerio de Millapoa,No informado,No,No,No,0,Centro
+cl-bi,Bíobío,Laja,Muncipal El Desague,No informado,No,No,No Sabe,0,Centro
+cl-bi,Bíobío,Laja,Municipal Urbano del Laja,Sí,Sí,No Sabe,No Sabe,2,Centro
+cl-bi,Bíobío,Laja,Municipal Cruz de Piedra,No informado,No,No Sabe,No Sabe,0,Centro
+cl-bi,Bíobío,Tucapel,Polcura(Municipal),Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Tucapel,Trupan(Municipal),Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Tucapel,Huépil(Municipal),Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Tucapel,Tucapel (Municipal),Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Quilleco,Municpal Quilleco,Sí,No,No,Sí,2,Centro
+cl-bi,Bíobío,Negrete,Muncipal Negrete,No,Sí,No,No,1,Centro
+cl-bi,Bíobío,Yumbel,Río Claro,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Yumbel,Rere,No informado,,,,0,Centro
+cl-bi,Bíobío,Cabrero,Muncipalidad Cabrero,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Concepción,Cementerio General,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,San Pedro de la Paz,Cementerio Municipal,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Chiguayante,Cementerio Municipal,No,No,No,No,0,Centro
+cl-bi,Bíobío,Coronel,Cementerio Municipal,No,Sí,Sí,No,2,Centro
+cl-bi,Bíobío,Lota,Cementerio Municipal,Sí,,,,1,Centro
+cl-bi,Bíobío,Hualqui,Cementerio Municipal,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Santa Juana,Cementerio Municipal,Sí,Sí,Sí,Sí,4,Centro
+cl-bi,Bíobío,Santa Juana,Las Corrientes,Sí,No,Sí,Sí,3,Centro
+cl-bi,Bíobío,Talcahuano,Cementerio Municipal N° 2,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Talcahuano,Cementerio Municipal N° 1,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Tomé,Municipal Nº 1,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Tomé,Municipal Nº 2,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Tomé,Municipal Dichato,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Tomé,Municipal Rafael,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Chillán,Municipal de Chillán,Sí,No,Sí,Sí,3,Centro
+cl-bi,Bíobío,Chillán,Municipal Quinchamali,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,San Carlos,Municipal San Carlos,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,San Carlos,Municipal Cachapoal,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Bulnes,Municipal Santa Clara,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Bulnes,Municipal Bulnes,Sí,No,No,Sí,2,Centro
+cl-bi,Bíobío,Coelemu,Municipal Urbano Coelemu,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Coelemu,Municipal de Huarilihue,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Quillón,Municipal Quillón,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Quillón,Municipal Cerro Negro,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,San Nicolás,Municipal,Sí,No,No,Sí,2,Centro
+cl-bi,Bíobío,Ñiquén,Municipal,Sí,,,,1,Centro
+cl-bi,Bíobío,Ránquil,Municipal *en ampliación*,Sí,,,,1,Centro
+cl-bi,Bíobío,Treguaco,Municipal,Sí,,,,1,Centro
+cl-bi,Bíobío,Yungay,Municipal de Yungay,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Yungay,Municipal de Campanario,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Yungay,Municipal Pangal del Laja,Sí,Sí,No,No,2,Centro
+cl-bi,Bíobío,Yungay,Municipal San Miguel de Itata,Sí,Sí,Sí,Sí,4,Centro
+cl-bi,Bíobío,Lebu,Municipal de Lebu,Sí,No,No,No,1,Centro
+cl-bi,Bíobío,Los Alamos,Cementerio Municipal de Los Álamos,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Cañete,Cementerio Municipal de Cañete,Sí,Sí,Sí,No,3,Centro
+cl-bi,Bíobío,Contulmo,Municipal de Contulmo,Sí,No,Sí,Sí,3,Centro
+cl-bi,Bíobío,Tirúa,Municipal de Tirúa,Sí,,,,1,Centro
+cl-bi,Bíobío,Tirúa,Quidico,Sí,,,,1,Centro
+cl-bi,Bíobío,Curanilahue,Municipal de Curanilahue,Sí,No,Sí,No,2,Centro
+cl-bi,Bíobío,Arauco,Municipal de Arauco,Sí,Sí,Sí,No,3,Centro
+cl-2730,Araucanía,Traiguén,Municipal de Traiguén,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Lumaco,Municipal de Lumaco,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Lumaco,Municipal de Cap. Pastene,Sí,No,Sí,Sí,3,Sur
+cl-2730,Araucanía,Lonquimay,CEMENTERIO MUNICIPAL,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Lautaro,Municipal Lautaro,No,No,Sí,No,1,Sur
+cl-2730,Araucanía,Lautaro,Municipal Pillanlelbun,No,Sí,Sí,No,2,Sur
+cl-2730,Araucanía,Perquenco,Municipal de Perquenco,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Galvarino,Municipal de Galvarino,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Curacautín,Cementerio Curacautin,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Temuco,Cementerio General Municipal,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Temuco,Parque Cementerio Municipal,No,No,No,No,0,Sur
+cl-2730,Araucanía,Cunco,Cementerio Municipal Cunco,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Cunco,Cementerio Municipal Las Hortensias,Sí,No,Sí,Sí,3,Sur
+cl-2730,Araucanía,Cunco,Cementerio Municipal Los Laureles,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Melipeuco,Cementerio Municipal,Sí,Sí,No,No,2,Sur
+cl-2730,Araucanía,Padre Las Casas,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Vilcún,Cementerio Municipal de Vilcún,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Vilcún,Cementerio Municipal de San Patricio,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Vilcún,Cementerio Municipal de Cherquenco,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Renaico,Municipal de Renaico,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Purén,Municipal de Puren,Sí,Sí,No,No,2,Sur
+cl-2730,Araucanía,Angol,Municipal de Angol,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Los Sauces,Municipal de Los Sauces,Sí,Sí,Sí,Sí,4,Sur
+cl-2730,Araucanía,Loncoche,Cementerio Municipal de Loncoche,Sí,Sí,Sí,Sí,4,Sur
+cl-2730,Araucanía,Loncoche,Cementerio Municipal de Huiscapi,Sí,No,No,Sí,2,Sur
+cl-2730,Araucanía,Cholchol,MUNICIPAL DE CHOL-CHOL,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Carahue,MUNICIPAL DE CARAHUE,No,Sí,Sí,No,2,Sur
+cl-2730,Araucanía,Saavedra,MUNICIPAL DE PTO DOMINGUEZ,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Saavedra,MUNICIPAL DE SAAVEDRA,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Nueva Imperial,MUNICIPAL DE NUEVA IMPERIAL,Sí,No,Sí,Sí,3,Sur
+cl-2730,Araucanía,Collipulli,Cementerio Municipal,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Collipulli,Cementerio Municipal Cato de Santa Julia,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Victoria,Cementerio Municipal Victoria,No,Sí,Sí,No,2,Sur
+cl-2730,Araucanía,Ercilla,Municipal Ercilla,Sí,Sí,Sí,Sí,4,Sur
+cl-2730,Araucanía,Ercilla,Municipal Pailahueque,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Pitrufquén,CEMENTERIO DE PITRUFQUEN,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Gorbea,CEMENTERIO DE GORBEA,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Freire,CEMENTERIO DE FREIRE,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Gorbea,CEMENTERIO DE QUITRATUE,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Gorbea,CEMENTERIO LASTARRIAS,Sí,Sí,No,No,2,Sur
+cl-2730,Araucanía,Teodoro Schmidt,CEMENTERIO BARROS ARANA,Sí,Sí,No,No,2,Sur
+cl-2730,Araucanía,Teodoro Schmidt,CEMENTERIO TEODORO SCHMIDT,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Toltén,CEMENTERIO DE TOLTEN,Sí,No,No,No,1,Sur
+cl-2730,Araucanía,Freire,CEMENTERIO QUEPE,Sí,No,Sí,Sí,3,Sur
+cl-2730,Araucanía,Pitrufquén,CEMENTERIO EN COMUY,Sí,Sí,Sí,No,3,Sur
+cl-2730,Araucanía,Pitrufquén,Cementerio de Caicoma,Sí,No,Sí,No,2,Sur
+cl-2730,Araucanía,Villarrica,Cementerio Municipal Villarrica,Sí,Sí,No,No,2,Sur
+cl-ll,Los Lagos,Purranque,Municipal Purranque,No,Sí,Sí,No,2,Sur
+cl-ll,Los Lagos,Purranque,Municipal Crucero,No,Sí,Sí,No,2,Sur
+cl-ll,Los Lagos,Purranque,Municipal Corte Alto,No,Sí,Sí,No,2,Sur
+cl-ll,Los Lagos,Purranque,Municpal Huellusca,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Río Negro,Municipal Río Negro,Sí,Sí,Sí,Sí,4,Sur
+cl-ll,Los Lagos,Río Negro,Municipal de Chapaco,No,Sí,No,No,1,Sur
+cl-ll,Los Lagos,San Pablo,Municipal San Pablo,No,No Sabe,No,No,0,Sur
+cl-ll,Los Lagos,Los Muermos,Municipal de Los Muermos,No,No,No,Sí,1,Sur
+cl-ll,Los Lagos,Quinchao,Municipal de Quinchao,No,Sí,Sí,No,2,Sur
+cl-ll,Los Lagos,Osorno,Cementerio Municipal de Osorno,No informado,Sí,Sí,Sí,3,Sur
+cl-ll,Los Lagos,Quellón,Cementerio Municipal de Quellón,Sí,No,Sí,No Sabe,2,Sur
+cl-ll,Los Lagos,Puyehue,Cementerio Municipal Puyehue,No informado,Sí,Sí,No,2,Sur
+cl-ll,Los Lagos,Puyehue,Cementerio Municipal de Entre Lagos,No informado,Sí,No,No,1,Sur
+cl-ll,Los Lagos,Chaitén,Cementerio Municipal de Chaitén,No informado,Sí,Sí,Sí,3,Sur
+cl-ll,Los Lagos,Futaleufú,Cementerio Municipal de Futaleufú,No informado,No,Sí,No,1,Sur
+cl-ll,Los Lagos,Hualaihué,Cementerio Municipal de Hualaihué,No informado,No,Sí,No,1,Sur
+cl-ll,Los Lagos,Palena,Cementerio Municipal de Palena,No informado,Sí,No,No,1,Sur
+cl-ll,Los Lagos,Calbuco,Cementerio Municipal de Calbuco,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Calbuco,*en proceso*,No informado,No,No,No,0,Sur
+cl-ll,Los Lagos,Cochamó,Cementerio Municipal de Cochamó,No informado,No,No,No,0,Sur
+cl-ll,Los Lagos,Frutillar,Cementerio Municipal de Frutillar,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Frutillar,Cementerio Municipal de Pantanosa,Sí,Sí,Sí,Sí,4,Sur
+cl-ll,Los Lagos,Frutillar,Cementerio Municiapal de Casma,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Maullín,Cementerio Municipal de Maullín,Sí,No Sabe,No Sabe,No Sabe,1,Sur
+cl-ll,Los Lagos,Puerto Montt,Cementerio General de Puerto Montt,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Puerto Montt,Cementerio General de Chin Chin,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Puerto Montt,Cementerio Alerce Histórico,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Puerto Varas,Cementerio Parque Las Rosas,No,No Sabe,No Sabe,No Sabe,0,Sur
+cl-ll,Los Lagos,Fresia,Cementerio Municipal de Fresia,Sí,Sí,Sí,No,3,Sur
+cl-ll,Los Lagos,Castro,Cementerio Municipal de Castro,Sí,Sí,Sí,Sí,4,Sur
+cl-ll,Los Lagos,Ancud,Cementerio Municipal de Ancud,Sí,Sí,Sí,Sí,4,Sur
+cl-ai,Aysén,Aysén,PUERTO AYSÉN,No,No,No,No,0,Austral
+cl-ai,Aysén,Coyhaique,Municipal de Cuatro Vientos,No,No,No,No Sabe,0,Austral
+cl-ai,Aysén,Coyhaique,Cementerio Municipal de Coyhaique,Sí,Sí,Sí,No Sabe,3,Austral
+cl-ai,Aysén,Cisnes,Cementerio Municipal de Cisnes,Sí,No,Sí,No,2,Austral
+cl-ai,Aysén,Cisnes,Cementerio Municipal de Puyuhuapi,Sí,No,No,No,1,Austral
+cl-ai,Aysén,Cisnes,Cementerio Municipal de La Junta,Sí,No,No,No,1,Austral
+cl-ai,Aysén,Cisnes,Cementerio Municipal de Marín,Sí,No,No,No,1,Austral
+cl-ai,Aysén,Cochrane,Cementerio Municipal de Cochrane,Sí,Sí,No,No,2,Austral
+cl-ai,Aysén,O'Higgins,Cementerio Municipal de Villa O´Higgins,Sí,No,No,No,1,Austral
+cl-ai,Aysén,Tortel,Cementerio Municipal de Caleta Tortel,Sí,Sí,No,Sí,3,Austral
+cl-ai,Aysén,Chile Chico,Cementerio Municipal de Chile Chico,Sí,Sí,No,No,2,Austral
+cl-ai,Aysén,Río Ibáñez,Cementerio Municipal de Río Ibañez,Sí,Sí,No,No,2,Austral
+cl-ma,Magallanes,Punta Arenas,CEMENTERIO MUNICIPAL SARA BRAUN,No,Sí,Sí,Sí,3,Austral
+cl-ma,Magallanes,Cabo de Hornos,CEMENTERIO MUNICIPAL PUERTO WILLIAMS,No,No,Sí,No,1,Austral
+cl-ma,Magallanes,Porvenir,CEMENTERIO MUNICIPAL DE PORVENIR,No,No,No,No,0,Austral
+cl-ma,Magallanes,Natales,Cementerio Padre Maria Rosa,No,Sí,No,Sí,2,Austral
+cl-ma,Magallanes,Natales,Cementerio Padre Hurtado,No,Sí,Sí,No,2,Austral
+cl-ma,Magallanes,Natales,CEMENTERIO PUERTO EDEN,No,,,,0,Austral
+cl-ma,Magallanes,Laguna Blanca,CEMENTERIO VILLA TEHUELCHES,No,Sí,No,No,1,Austral
+cl-ma,Magallanes,Torres del Paine,Cementerio Cerro Castillo,No informado,No,No,No,0,Austral
+cl-rm,Metropolitana,El Monte,CEMENTERIO DE EL MONTE,No,No,Sí,No,1,Centro
+cl-rm,Metropolitana,Pirque,CEMENTERIO MUNICIPAL DE PIRQUE,No,No,No,No,0,Centro
+cl-rm,Metropolitana,Recoleta,Cementerio General,Sí,Sí,No,No,2,Centro
+cl-rm,Metropolitana,Curacaví,Cementerio Municipal de Curacaví,Sí,Sí,No,No,2,Centro
+cl-rm,Metropolitana,Melipilla,Cementerio Comunal de Melipilla,Sí,No,Sí,Sí,3,Centro
+cl-rm,Metropolitana,Colina,Cementerio Municipal de Colina,Sí,No,No,No,1,Centro
+cl-rm,Metropolitana,Pudahuel,Cementerio Municipal de Pudahuel,Sí,Sí,No,No,2,Centro
+cl-ar,De Los Ríos,Panguipulli,Coñaripe,No,,,,0,Sur
+cl-ar,De Los Ríos,Valdivia,Cementerio Municipal 1,Sí,Sí,Sí,No,3,Sur
+cl-ar,De Los Ríos,Valdivia,Cementerio Municipal 2,No,No,No,No,0,Sur
+cl-ar,De Los Ríos,Mariquina,Cementerio Municipal,No,Sí,No,No,1,Sur
+cl-ar,De Los Ríos,Futrono,Cementerio Las Quemas Futrono,No,No,No,No,0,Sur
+cl-ar,De Los Ríos,Futrono,Cementerio O´Higgns,Sí,Sí,Sí,No,3,Sur
+cl-ar,De Los Ríos,Lanco,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
+cl-ar,De Los Ríos,Los Lagos,Cementerio Municipal,Sí,No,No,No,1,Sur
+cl-ar,De Los Ríos,Paillaco,Cementerio Municipal de Paillaco,Sí,No,Sí,Sí,3,Sur
+cl-ar,De Los Ríos,Paillaco,Cementerio Municipal de Reumén,Sí,Sí,No,No,2,Sur
+cl-ar,De Los Ríos,Paillaco,Cementerio Municipal de Pichirropulli,Sí,Sí,No,Sí,3,Sur
+cl-ar,De Los Ríos,Ranco,Cementerio Municipal de Ranco,Sí,Sí,No,No,2,Sur
+cl-ar,De Los Ríos,Máfil,Cementerio Municipal de Máfil,Sí,Sí,Sí,No,3,Sur
+cl-ar,De Los Ríos,Río Bueno,Cementerio Municipal,Sí,Sí,Sí,No,3,Sur
+cl-ar,De Los Ríos,Corral,Cementerio Municipal de Corral,Sí,Sí,Sí,Sí,4,Sur
+cl-2740,Arica y Parinacota,Arica,Municipal de Arica,No,No,Sí,No,1,Norte
+cl-2740,Arica y Parinacota,Arica,San Miguel de Azapa,No,Sí,Sí,No,2,Norte
