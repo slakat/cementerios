@@ -54,7 +54,7 @@
                 .on("end", dragended)
                 )
         .on("mouseover", function(d){
-          text="<center>Ubicación: <br><b>"+d.comuna +", Región de"+d.region+"</b><br>"+
+          text="<center>Ubicación: <br><b>"+d.comuna +", Región de "+d.region+"</b><br>"+
                "Nombre: <br><b>"+d.nombre +"</b><br>"+
                "<hr><p><b>ALERTAS</b></p></hr></center>"+
                "<table>"+
